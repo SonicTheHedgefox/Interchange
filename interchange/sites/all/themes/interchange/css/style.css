@@ -125,7 +125,7 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 @media (min-width: 768px){
 
     nav.topbarmenu ul.menu{
-        padding: 29px;
+        padding: 19px;
     }
     nav.insidepage ul.menu{
         padding: 0;

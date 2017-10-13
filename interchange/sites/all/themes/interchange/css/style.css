@@ -162,7 +162,7 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
     height: auto;
     overflow: hidden;
 }
-.topbar .flexslider{
+.topbanner .flexslider{
     border: none;
     width: auto; 
     margin: 0;

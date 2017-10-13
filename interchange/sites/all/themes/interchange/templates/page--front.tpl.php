@@ -80,7 +80,7 @@
 	<div class="green"></div>
 </div> -->
 <nav class="navheader front">
-	<div class="container">
+	<div class="header_container">
 		<div class="navbar-header">
 			<?php if ($logo): ?>
 				<a class="logo makerlogo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">

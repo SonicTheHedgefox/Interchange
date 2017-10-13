@@ -123,14 +123,20 @@
 
  		<div class="col-md-6">
  			<div class="row">
- 				
+ 				<?php 
+					$block = module_invoke('views', 'block_view', 'top_banner-block');
+			    	print render($block); 
+				?>	
  			</div>
  		</div>
 
 
  		<div class="col-md-6">
  			<div class="row">
- 				
+ 				<?php 
+					$block = module_invoke('views', 'block_view', 'top_banner-block_1');
+			    	print render($block); 
+				?>	 				
  			</div>
  		</div>
 

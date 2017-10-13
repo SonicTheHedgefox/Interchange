@@ -9,4 +9,7 @@
  
   </div>
   <div style="clear: both"></div>
+  <span class="tag-mark">
+  		<?php print $fields['field_tags']->content ?>
+  </span>
 </div>

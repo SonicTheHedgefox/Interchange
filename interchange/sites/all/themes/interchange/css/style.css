@@ -178,6 +178,21 @@ h3.box-title,h4.box-title{
 }
 
 
+
+span .tag-mark{
+    position: absolute;
+    top: .4rem;
+    left: .4rem;
+    display: block;
+    padding: 0 .5rem;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    font-size: .6rem;
+    text-align: center;
+    border-radius: 1rem;
+    z-index: 11;
+}
+
 @media (min-width: 768px){
 
     nav.topbarmenu ul.menu{

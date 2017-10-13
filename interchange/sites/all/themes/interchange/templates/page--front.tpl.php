@@ -116,9 +116,9 @@
 </div>
 <div class="recommended">
 
-<?php
-          $block = module_invoke('views', 'block_view', 'recommend-box');
-          print render($block); 
+<?php 
+	$block = module_invoke('views', 'block_view', 'recommend_box-block');
+    print render($block); 
 ?>
 </div>
  <div class="main-content">

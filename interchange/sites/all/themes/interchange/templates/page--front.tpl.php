@@ -73,12 +73,12 @@
  * @ingroup templates
  */
 ?>
-<div class="top_color_bar">
+<!-- <div class="top_color_bar">
 	<div class="blue"></div>
 	<div class="red"></div>
 	<div class="yellow"></div>
 	<div class="green"></div>
-</div>
+</div> -->
 <nav class="navheader front">
 	<div class="container">
 		<div class="navbar-header">

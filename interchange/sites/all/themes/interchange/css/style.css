@@ -168,6 +168,14 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
     margin: 0;
 
 }
+.topbanner .flex-direction-nav a:before{
+    font-size: 28px
+}
+
+.topbanner .flex-direction-nav a {
+    margin: -40px 0 0;
+}
+
 /**Inside Page Css**/
 .main-container{
     padding: 15px 0;

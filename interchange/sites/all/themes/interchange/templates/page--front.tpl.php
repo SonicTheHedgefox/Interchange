@@ -141,32 +141,35 @@
 
 	 	<div style="clear:fix"></div>	
 	 	<div class="main-content">
-			<div class="content-list col-md-9">
-				 
-					<?php 
-					$block = module_invoke('views', 'block_view', 'article_list-block');
-				    print render($block); 
-					?>	
+		 	<div class="row">
+				<div class="content-list col-md-9">
+					 
+						<?php 
+						$block = module_invoke('views', 'block_view', 'article_list-block');
+					    print render($block); 
+						?>	
+				</div>
+				
+				<div class="sidebar col-md-3">
+	 
+
+						<?php 
+						$block = module_invoke('views', 'block_view', 'recommend_box-block');
+					    print render($block); 
+						?>		
+
+						<?php 
+						$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
+					    print render($block); 
+						?>	
+
+						<?php 
+						$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
+					    print render($block); 
+						?>	
+	 
+				</div>	
 			</div>
-			<div class="sidebar col-md-3">
- 
-
-					<?php 
-					$block = module_invoke('views', 'block_view', 'recommend_box-block');
-				    print render($block); 
-					?>		
-
-					<?php 
-					$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
-				    print render($block); 
-					?>	
-
-					<?php 
-					$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
-				    print render($block); 
-					?>	
- 
-			</div>	
 	 	</div>
  	</div>
 </div>

@@ -80,30 +80,7 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 }
 
 
-@media (min-width: 768px){
 
-    nav.topbarmenu ul.menu{
-        padding: 19px;
-    }
-    nav.insidepage ul.menu{
-        padding: 0;
-    }
-    nav.insidepage ul.menu li{
-        padding: 6px 5px;
-        margin: 0px 10px;
-    }
-
-
-}
-@media (min-width: 768px){
-    .slideshow .flexslider{
-        border: none;
-        width: auto; 
-        height: 380px;
-        margin-bottom:0 0 20px 0;
-    }
-}
- 
 .slideshow .flexslider{
     border: none;
     width: auto; 
@@ -174,8 +151,44 @@ h3.box-title,h4.box-title{
     margin: 0;
     border: none;
     background-color: #fff;
+    width: 33%;
 }
 .sidebar.col-md-3 {
     padding-left: 0px;
     margin-left: -20px;
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+
+    nav.topbarmenu ul.menu{
+        padding: 19px;
+    }
+    nav.insidepage ul.menu{
+        padding: 0;
+    }
+    nav.insidepage ul.menu li{
+        padding: 6px 5px;
+        margin: 0px 10px;
+    }
+
+
+}
+@media (min-width: 768px){
+    .slideshow .flexslider{
+        border: none;
+        width: auto; 
+        height: 380px;
+        margin-bottom:0 0 20px 0;
+    }
+}
+
+@media (max-width:768px){
+    .content-list .masonry-item{
+        width: 100%;
+    }
 }

@@ -84,7 +84,7 @@ a:hover{
 /**Front page Css**/
 
 nav.navheader{
-	background-color: #ffffff;
+    background-color: rgba(34,34,34,.6);
     border: none;
     color: #fff;
     margin-bottom: 15px;
@@ -101,7 +101,7 @@ a.makerlogo{
     float: left;
 }
 nav.topbarmenu ul.menu a{
-    color: #333;
+    color: #fff;
     font-size: 18px;
     display: block;
     padding: 10px 20px;

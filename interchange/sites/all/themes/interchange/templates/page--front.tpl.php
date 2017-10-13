@@ -130,7 +130,7 @@
 				<div class="col-md-6">
 					<div class="row">
 					<?php 
-					$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
+					$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
 				    print render($block); 
 					?>	
 					</div>
@@ -138,7 +138,7 @@
 				<div class="col-md-6">
 					<div class="row">
 					<?php 
-					$block = module_invoke('views', 'block_view', 'recommend_box-block_3');
+					$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
 				    print render($block); 
 					?>	
 					</div>

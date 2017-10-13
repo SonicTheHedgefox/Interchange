@@ -144,6 +144,8 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
  
 .flexslider{
     border: none;
+    height: 380px;
+    width: auto;   
 }
 .slideshow img{
     width: 100%;

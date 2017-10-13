@@ -118,37 +118,10 @@
 	?>     
 </div>
 <div class="main container">
-	<div class="row">
-		<div class="recommend">
-			<div class="recommend-box master col-md-6 col-xs-12">
-				<div class="row">
-					<?php 
-					$block = module_invoke('views', 'block_view', 'recommend_box-block');
-				    print render($block); 
-					?>		
-				</div>
-			</div>
-			<div class="recommend-box col-md-6">
-				<div class="row">
-					<div class="col-md-6 col-xs-6">
-						<?php 
-						$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
-					    print render($block); 
-						?>	
-					</div>
-					<div class="col-md-6 col-xs-6">
-						<?php 
-						$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
-					    print render($block); 
-						?>	
-					</div>				
-				</div>
+ 
 
-			</div>
-		</div>	
-
-		<div class="main-content">
-			<div class="col-md-8">
+		<div class="main-content col-md-8">
+			<div class="row">
 				<?php 
 				$block = module_invoke('views', 'block_view', 'article_list-block');
 			    print render($block); 
@@ -158,10 +131,31 @@
 				
 			</div>
 		</div>
-	</div>
+
+ 
+		<div class="sidebar col-md-4">
+  			<div class="row">
+  				
+				<?php 
+				$block = module_invoke('views', 'block_view', 'recommend_box-block');
+			    print render($block); 
+				?>		
+
+				<?php 
+				$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
+			    print render($block); 
+				?>	
+
+				<?php 
+				$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
+			    print render($block); 
+				?>	
+			</div>
+		</div>	
+ 
 </div>
 
-</div>
+ 
  <div class="footer">
  	
  </div>

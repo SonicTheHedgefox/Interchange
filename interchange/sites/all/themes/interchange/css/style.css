@@ -91,6 +91,7 @@ nav.navheader{
 }
 nav.navheader.front{
     width: 100%;
+    z-index: 1000;
     position: absolute;
     margin-bottom: 0px;
     top: 3px;

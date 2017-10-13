@@ -144,8 +144,15 @@
 	</div>	
 
 	<div class="main-content">
-		
-
+		<div class="col-md-8">
+			<?php 
+			$block = module_invoke('views', 'block_view', 'article_list-block');
+		    print render($block); 
+			?>	
+		</div>
+		<div class="col-md-4">
+			
+		</div>
 	</div>
 
 </div>

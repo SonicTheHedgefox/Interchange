@@ -146,7 +146,7 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
         border: none;
         width: auto; 
         height: 380px;
-        margin-bottom: 20px;
+        margin-bottom:0 0 20px 0;
     }
 }
  
@@ -178,6 +178,11 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 }
 
 /**Inside Page Css**/
+h4.box-title{
+    font-weight: 600;
+}
+
+
 .main-container{
     padding: 15px 0;
 }

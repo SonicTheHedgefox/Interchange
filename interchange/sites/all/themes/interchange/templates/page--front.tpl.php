@@ -114,8 +114,8 @@
 <div class="slideshow">
 	
 </div>
+<div class="main container">
 <div class="recommended">
-
 <?php 
 	$block = module_invoke('views', 'block_view', 'recommend_box-block');
     print render($block); 
@@ -125,6 +125,7 @@
  	
 
  </div>
+</div>
  <div class="footer">
  	
  </div>

@@ -115,10 +115,10 @@
 	
 </div>
 <div class="recommended">
-	<?php 
+<!-- 	<?php 
 	$block = block_load('views',  'recommend_box');  
 	print render($block['content']);
-	?>
+	?> -->
 	
 </div>
  <div class="main-content">

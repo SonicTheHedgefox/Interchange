@@ -110,7 +110,6 @@ nav.topbarmenu ul.menu a{
 
 nav.topbarmenu ul.menu li.active {
     color: #4285f4;
-    border-bottom: 3px solid  #4285f4;
 }
 
 nav.topbarmenu ul.menu a.active {

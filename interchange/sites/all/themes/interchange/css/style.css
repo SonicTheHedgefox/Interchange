@@ -178,11 +178,20 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 }
 
 /**Inside Page Css**/
-h4.box-title{
+h3.box-title{
     font-weight: 600;
 }
-
-
+.tpobanner-thumb{
+    width: 220px;
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.topbanner-info{
+    float: left;
+}
 .main-container{
     padding: 15px 0;
 }

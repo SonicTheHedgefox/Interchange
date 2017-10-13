@@ -126,7 +126,7 @@
 
 		</div>
 		<div class="recommend-sidebar col-md-6">
-			<div class="row">
+			<div class="r ">
 				<div class="col-md-6">
 					<div class="row">
 					<?php 
@@ -136,7 +136,7 @@
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="row">
+					<div class="r ">
 					<?php 
 					$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
 				    print render($block); 

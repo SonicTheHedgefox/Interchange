@@ -197,6 +197,7 @@ h3.box-title{
     width: 60%;
     float: left;
     padding: 0 20px;
+    margin-top:-8px;
 }
 .main-container{
     padding: 15px 0;

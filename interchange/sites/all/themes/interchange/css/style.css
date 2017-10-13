@@ -162,6 +162,12 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
     height: auto;
     overflow: hidden;
 }
+.topbar .flexslider{
+    border: none;
+    width: auto; 
+    margin: 0;
+
+}
 /**Inside Page Css**/
 .main-container{
     padding: 15px 0;

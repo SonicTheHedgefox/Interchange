@@ -115,12 +115,27 @@
 	
 </div>
 <div class="main container">
-<div class="recommended">
-<?php 
-	$block = module_invoke('views', 'block_view', 'recommend_box-block');
-    print render($block); 
-?>
-</div>
+	<div class="recommend">
+		<div class="recommend-master col-md-6 col-xs-12">
+			<div class="row">
+				<?php 
+				$block = module_invoke('views', 'block_view', 'recommend_box-block');
+			    print render($block); 
+				?>		
+			</div>
+
+		</div>
+		<div class="recommend-sidebar col-md-6">
+			<div class="row">
+				<?php 
+				$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
+			    print render($block); 
+				?>	
+
+			</div>
+		</div>	
+	</div>
+
  <div class="main-content">
  	
 

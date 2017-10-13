@@ -161,9 +161,22 @@ h3.box-title,h4.box-title{
     margin-left: -20px;
 }
 
+.panel-title{
+    border-top: 1px solid #d8d8d8;
+    text-align: center;
+    padding-bottom: 21px;
+}
 
-
-
+.panel-title .inner a{
+    display: inline-block;
+    background-color: #ff4c00;
+    padding: 8px 16px;
+    font-family: "Gotham SSm A","Gotham SSm B",Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 
 
 @media (min-width: 768px){

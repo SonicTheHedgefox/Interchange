@@ -141,7 +141,7 @@
 
 	 	<div style="clear:fix"></div>	
 	 	<div class="main-content">
-				<div class="content-list col-md-8">
+				<div class="content-list col-md-9">
 					 
 						<?php 
 						$block = module_invoke('views', 'block_view', 'article_list-block');
@@ -149,7 +149,7 @@
 						?>	
 				</div>
 
-				<div class="sidebar col-md-4">
+				<div class="sidebar col-md-3">
 	 
 
 						<?php 

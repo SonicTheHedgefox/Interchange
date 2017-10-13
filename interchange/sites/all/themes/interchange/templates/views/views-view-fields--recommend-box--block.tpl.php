@@ -1,6 +1,6 @@
 <div class="recommend-box">
   <div class="course-img">
-	<?php print $fields['field_trumb']->content ?>
+	<?php print $fields['field_thumb']->content ?>
   </div>
   <div class="course-info">
     <div class="course-title">

@@ -1,5 +1,5 @@
 body{
-	font-family:'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;
+	font-family:'Microsoft YaHei','Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
 	background-color:#f3f5f7;
     color: rgb(97, 97, 97);
 }
@@ -109,18 +109,18 @@ a.makerlogo{
     float: left;
 }
 nav.topbarmenu ul.menu a{
-    color: #666;
+    color: #333;
     font-size: 18px;
     display: block;
     padding: 10px 20px;
 }
 
 nav.topbarmenu ul.menu li.active {
-    color: #4285f4;
+    color: #46c8c8;
 }
 
 nav.topbarmenu ul.menu a.active {
-    color: #4285f4;
+    color: #46c8c8;
 }
 
 nav.topbarmenu a:hover, nav.topbarmenu a:focus {

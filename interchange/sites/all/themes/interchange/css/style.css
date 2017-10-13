@@ -183,6 +183,7 @@ h3.box-title{
 }
 .topbanner-thumb{
     width: 220px;
+    height: 180px;
     display: block;
     position: relative;
     margin-bottom: 15px;

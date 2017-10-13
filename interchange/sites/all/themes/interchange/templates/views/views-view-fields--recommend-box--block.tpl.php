@@ -1,5 +1,5 @@
-<div class="recommend-box">
-  <div class="recommend-thumb">
+<div class="article-box">
+  <div class="article-thumb">
 	<?php print $fields['field_thumb']->content ?>
   </div>
   <div class="article-info">

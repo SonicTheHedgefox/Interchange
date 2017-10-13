@@ -6,5 +6,4 @@
 		<?php print $fields['title']->content ?>
     <?php print $fields['field_summary']->content ?>
   </div>
-  <div style="clear: both"></div>
 </div>

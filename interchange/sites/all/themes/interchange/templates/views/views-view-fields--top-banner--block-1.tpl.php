@@ -1,4 +1,4 @@
-<div class="tpobanner-box">
+<div class="topbanner-box">
   <div class="topbanner-thumb">
 	<?php print $fields['field_thumb']->content ?>
   </div>
@@ -7,4 +7,5 @@
 		<?php print $fields['title']->content ?>
     </div>
   </div>
+  <div style="clear: both"></div>
 </div>

@@ -178,7 +178,6 @@ h3.box-title,h4.box-title{
 }
 
 
-
 span.tag-mark{
     position: absolute;
     top: .4rem;
@@ -192,6 +191,10 @@ span.tag-mark{
     border-radius: 1rem;
     z-index: 11;
 }
+span.tag-mark a{
+    color: #fff;
+}
+
 
 @media (min-width: 768px){
 

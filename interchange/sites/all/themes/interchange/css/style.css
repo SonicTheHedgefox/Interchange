@@ -146,10 +146,11 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
         border: none;
         width: auto; 
         height: 380px;
+        margin-bottom: 20px;
     }
 }
  
-.slieshow .flexslider{
+.slideshow .flexslider{
     border: none;
     width: auto; 
     margin: 0 0 20px 0;  
@@ -173,7 +174,7 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 }
 
 .topbanner .flex-direction-nav a {
-    margin: -40px 0 0;
+    margin: -55px 0 0;
 }
 
 /**Inside Page Css**/

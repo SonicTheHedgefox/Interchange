@@ -115,7 +115,7 @@
 	</div>
 </nav>
 
-<div class="main-content">
+<!-- <div class="main-content">
 	<div class="wrapper-grey">
  
 	</div>
@@ -134,7 +134,7 @@
  
 		</div>
 	</div>		
-</div>
+</div> -->
  
 
   <!-- <footer class="front footer">

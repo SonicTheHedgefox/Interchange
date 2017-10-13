@@ -111,92 +111,16 @@
 		<?php endif; ?>	
 	</div>
 </nav>
+<div class="slideshow">
+	
+</div>
+<div class="recommended">
+	
+</div>
+ <div class="main-content">
+ 	
 
-<!-- <div class="main-content">
-	<div class="wrapper-grey">
- 
-	</div>
-	<div class="wrapper-white">
-		<div class="container">	
- 
-		</div>
-	</div>	
-	<div class="wrapper-grey">
-		<div class="container">
- 
-		</div>
-	</div>
-	<div class="wrapper-white">
-		<div class="container">	
- 
-		</div>
-	</div>		
-</div> -->
- 
-
-  <!-- <footer class="front footer">
-	<div class="container">	
-		<div class="links">
-		  	<ul class="link-ul"><h4>我是学生</h4>
-				<li>如何注册</li>
-				<li>如何学习</li>
-				<li>如何互动</li>
-				<li></li>
-				<li></li>
-			</ul>
-		  	<ul class="link-ul"><h4>我是老师</h4>
-				<li>建立班级</li>
-				<li>发布课程</li>
-				<li>使用题库</li>
-				<li></li>
-				<li></li>
-			</ul>
-		  	<ul class="link-ul"><h4>我是管理员</h4>
-				<li>新手专区</li>
-				<li>使用指引</li>
-				<li>使用指引</li>
-				<li></li>
-				<li></li>
-			</ul>
-		  	<ul class="link-ul"><h4>关于我们</h4>
-				<li>魔法学院</li>
-				<li>官方微博</li>
-				<li>加入我们</li>
-				<li></li>
-				<li></li>
-			</ul>			
-			<div class="clear_fix"></div>
-		</div>
-		<div class="clear_fix"></div>
-		<div class="vip-links">
-			<ul>
-				<li><a><img class="footer_logo" src="http://makeblock.studio/sites/all/themes/makercraft/images/smallfooterlogo.png"><a/></li>
-				<li><a>Code.org</a></li>
-				<li>-</li>
-				<li><a>Arduino</a></li>
-				<li>-</li>
-				<li><a>Scratch</a></li>
-				<li>-</li>
-				<li><a>MineCraft</a></li>
-				<li>-</li>
-				<li><a>Makeblock</a></li>
-				<li>-</li>
-				<li><a>OpenJsCAD</a></li>
-				<li>-</li>
-				<li><a>APPInventor</a></li>
-				<li>-</li>
-				<li><a>StrawberryPie</a></li>
-				<li>-</li>
-				<li><a>3DBuilder</a></li>
-				<li>-</li>
-				<li><a>Zmaker</a></li>
-			</ul>
-		</div>
-		<hr class="footer-line">
-        <div class="footer-bottom">
-        <p>© 2015-2017 MakerCraft 版权所有 | 技术支持： <a href="http://www.zmaker.cn"> 郑州创客空间</a></p>
-		<p>京公网安备11010802012193号</p>
- 	    </div>
-	</div>
-
-  </footer> -->
+ </div>
+ <div class="footer">
+ 	
+ </div>

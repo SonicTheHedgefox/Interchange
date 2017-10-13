@@ -115,10 +115,10 @@
 	
 </div>
 <div class="recommended">
- <?php
-$block = block_load('view', 'recommend-box--block');
-$output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
-print $output;
+
+<?php
+          $block = module_invoke('views', 'block_view', 'recommend-box--block');
+          print render($block); 
 ?>
 </div>
  <div class="main-content">

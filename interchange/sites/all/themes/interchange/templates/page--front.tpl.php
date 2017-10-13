@@ -141,7 +141,6 @@
 
 	 	<div style="clear:fix"></div>	
 	 	<div class="main-content">
-		 	<div class="row">
 				<div class="content-list col-md-9">
 					 
 						<?php 
@@ -149,7 +148,7 @@
 					    print render($block); 
 						?>	
 				</div>
-				
+
 				<div class="sidebar col-md-3">
 	 
 
@@ -169,7 +168,6 @@
 						?>	
 	 
 				</div>	
-			</div>
 	 	</div>
  	</div>
 </div>

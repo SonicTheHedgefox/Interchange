@@ -172,9 +172,14 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
     float: left;
     overflow: hidden;
 }
+
 .article-box{
     overflow: hidden;
     float: left;
+    width: 100%;
+}
+.article-box img{
+    width: 100%;
 }
 .main_block.right .block,.whiteblock{
     background: #fff;

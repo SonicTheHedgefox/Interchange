@@ -130,13 +130,13 @@
 			</div>
 			<div class="recommend-box col-md-6">
 				<div class="row">
-					<div class="article-box col-md-6 col-xs-6">
+					<div class="col-md-6 col-xs-6">
 						<?php 
 						$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
 					    print render($block); 
 						?>	
 					</div>
-					<div class="article-box col-md-6 col-xs-6">
+					<div class="col-md-6 col-xs-6">
 						<?php 
 						$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
 					    print render($block); 

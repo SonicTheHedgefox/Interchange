@@ -7,3 +7,4 @@
     <?php print $fields['field_summary']->content ?>
   </div>
 </div>
+<div style="clear: both"></div>

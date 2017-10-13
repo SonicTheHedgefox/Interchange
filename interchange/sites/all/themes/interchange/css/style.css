@@ -90,6 +90,8 @@ nav.navheader{
     border-bottom: 1px solid #e5e5e5;
 }
 nav.navheader.front{
+    width: 100%;
+    position: relative;
     margin-bottom: 0px;
 }
 

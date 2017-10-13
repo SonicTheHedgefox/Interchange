@@ -3,8 +3,7 @@
 	<?php print $fields['field_thumb']->content ?>
   </div>
   <div class="article-info">
-    <div class="article-title">
 		<?php print $fields['title']->content ?>
-    </div>
+    <?php print $fields['field_summary']->content ?>
   </div>
 </div>

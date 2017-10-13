@@ -179,9 +179,9 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 
 /**Inside Page Css**/
 h3.box-title{
-    font-weight: 600;
+ 
 }
-.tpobanner-thumb{
+.topbanner-thumb{
     width: 220px;
     display: block;
     position: relative;

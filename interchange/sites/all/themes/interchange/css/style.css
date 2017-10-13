@@ -110,7 +110,9 @@ a.makerlogo{
 }
 nav.topbarmenu ul.menu a{
     color: #666;
-    font-size: 16px;
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
 }
 
 nav.topbarmenu ul.menu li.active {

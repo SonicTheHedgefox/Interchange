@@ -115,8 +115,10 @@
 	
 </div>
 <div class="recommended">
+	<?php 
 	$block = block_load('block',  'recommend_box');  
 	print render($block['content']);
+	?>
 	
 </div>
  <div class="main-content">

@@ -151,6 +151,14 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 .main-container{
     padding: 15px 0;
 }
+
+
+.recommend-box{
+    float: left;
+}
+.article-box{
+    float: left;
+}
 .main_block.right .block,.whiteblock{
     background: #fff;
     padding: 16px;

@@ -116,32 +116,31 @@
 </div>
 <div class="main container">
 	<div class="recommend">
-		<div class="recommend-master col-md-6 col-xs-12">
+		<div class="recommend-box master col-md-6 col-xs-12">
 			<div class="row">
 				<?php 
 				$block = module_invoke('views', 'block_view', 'recommend_box-block');
 			    print render($block); 
 				?>		
 			</div>
-
 		</div>
-		<div class="recommend-sidebar col-md-6">
-			<div class="r ">
-				<div class="col-md-6">
+		<div class="recommend-box col-md-6">
+ 
+				<div class="article-box col-md-6">
 					<div class="row">
 					<?php 
 					$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
 				    print render($block); 
 					?>	
 					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="r ">
+ 
+				<div class="article-box col-md-6">
+ 
 					<?php 
 					$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
 				    print render($block); 
 					?>	
-					</div>
+ 
 				</div>				
 
 			</div>

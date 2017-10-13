@@ -118,66 +118,63 @@
 	?>     
 </div>
 <div class="main container">
- 	
- 	<div class="topbanner">
- 		<div class="row">
- 		<div class="col-md-6">
- 			 
- 				<?php 
-					$block = module_invoke('views', 'block_view', 'top_banner-block');
-			    	print render($block); 
-				?>	
- 			 
- 		</div>
+ 	<div class="row"> 	
 
+	 	<div class="topbanner">
+	 		<div class="col-md-6">
+	 			 
+	 				<?php 
+						$block = module_invoke('views', 'block_view', 'top_banner-block');
+				    	print render($block); 
+					?>	
+	 			 
 
- 		<div class="col-md-6">
- 			 
- 				<?php 
-					$block = module_invoke('views', 'block_view', 'top_banner-block_1');
-			    	print render($block); 
-				?>	 				
- 			 
- 		</div>
- 		</div>
+	 		<div class="col-md-6">
+	 			 
+	 				<?php 
+						$block = module_invoke('views', 'block_view', 'top_banner-block_1');
+				    	print render($block); 
+					?>	 				
+	 			 
+	 		</div>
+	 		</div>
+	 	</div>
+	 	
+	 	<div style="clear:fix"></div>	
+	 	<div class="main-content">
+			<div class="content-list col-md-8">
+				<div class="row">
+					<?php 
+					$block = module_invoke('views', 'block_view', 'article_list-block');
+				    print render($block); 
+					?>	
+				</div>
+				<div class="col-md-4">
+					
+				</div>
+			</div>
+	 
+			<div class="sidebar col-md-4">
+	  			<div class="row">
+
+					<?php 
+					$block = module_invoke('views', 'block_view', 'recommend_box-block');
+				    print render($block); 
+					?>		
+
+					<?php 
+					$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
+				    print render($block); 
+					?>	
+
+					<?php 
+					$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
+				    print render($block); 
+					?>	
+				</div>
+			</div>	
+	 	</div>
  	</div>
-
-
- 	<div style="clear:fix"></div>	
-
-		<div class="main-content col-md-8">
-			<div class="row">
-				<?php 
-				$block = module_invoke('views', 'block_view', 'article_list-block');
-			    print render($block); 
-				?>	
-			</div>
-			<div class="col-md-4">
-				
-			</div>
-		</div>
-
- 
-		<div class="sidebar col-md-4">
-  			<div class="row">
-
-				<?php 
-				$block = module_invoke('views', 'block_view', 'recommend_box-block');
-			    print render($block); 
-				?>		
-
-				<?php 
-				$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
-			    print render($block); 
-				?>	
-
-				<?php 
-				$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
-			    print render($block); 
-				?>	
-			</div>
-		</div>	
- 
 </div>
 
  

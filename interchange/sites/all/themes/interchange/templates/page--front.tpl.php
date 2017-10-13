@@ -139,8 +139,8 @@
 	 		</div>
 	 		<div style="clear:both;"></div>
 	 	</div>
-
-	 	<div style="clear:fix"></div>	
+	 	<div style="clear:both"></div>
+	<div class="pane-title"><div class="inner"><a href="/latest">Latest »</a></div></div>
 	 	<div class="main-content">
 				<div class="content-list col-md-9">
 					 

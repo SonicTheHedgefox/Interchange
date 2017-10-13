@@ -118,7 +118,26 @@
 	?>     
 </div>
 <div class="main container">
- 
+ 	
+ 	<div class="topbanner">
+
+ 		<div class="col-md-6">
+ 			<div class="row">
+ 				
+ 			</div>
+ 		</div>
+
+
+ 		<div class="col-md-6">
+ 			<div class="row">
+ 				
+ 			</div>
+ 		</div>
+
+ 	</div>
+
+
+ 	<div style="clear:fix"></div>	
 
 		<div class="main-content col-md-8">
 			<div class="row">
@@ -135,7 +154,7 @@
  
 		<div class="sidebar col-md-4">
   			<div class="row">
-  				
+
 				<?php 
 				$block = module_invoke('views', 'block_view', 'recommend_box-block');
 			    print render($block); 

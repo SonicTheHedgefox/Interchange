@@ -139,6 +139,9 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 
 
 }
+.views_slideshow_main{
+    width: 100%;
+}
 .slideshow-box{
     width: 100%!important;
     overflow: hidden;

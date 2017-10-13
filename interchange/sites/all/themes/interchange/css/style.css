@@ -19,6 +19,7 @@ a:hover{
     transition: all 0.3s ease;
 }
 .header_container{
+    width: 1200px;
     padding: 0px 20px;
 }
 .course-type-bg-wrapper{

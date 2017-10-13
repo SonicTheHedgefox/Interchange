@@ -79,7 +79,7 @@
 	<div class="yellow"></div>
 	<div class="green"></div>
 </div> -->
-<!-- <nav class="navheader front">
+<nav class="navheader front">
 	<div class="container">
 		<div class="navbar-header">
 			<?php if ($logo): ?>
@@ -113,7 +113,7 @@
 		  </div>
 		<?php endif; ?>	
 	</div>
-</nav> -->
+</nav>
 
 <!-- <div class="main-content">
 	<div class="wrapper-grey">

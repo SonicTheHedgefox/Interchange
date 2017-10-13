@@ -108,9 +108,13 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
     margin: -55px 0 0;
 }
 
-/**Inside Page Css**/
+
 h3.box-title,h4.box-title{
     font-weight: 600;
+}
+.topbanner{
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 .topbanner-box{
     width: 100%;

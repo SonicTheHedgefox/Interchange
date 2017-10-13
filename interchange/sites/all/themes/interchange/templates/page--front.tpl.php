@@ -137,7 +137,7 @@
 </div>
  
 
-  <footer class="front footer">
+  <!-- <footer class="front footer">
 	<div class="container">	
 		<div class="links">
 		  	<ul class="link-ul"><h4>我是学生</h4>
@@ -202,4 +202,4 @@
  	    </div>
 	</div>
 
-  </footer>
+  </footer> -->

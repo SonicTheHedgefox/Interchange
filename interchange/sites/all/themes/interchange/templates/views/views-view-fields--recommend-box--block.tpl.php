@@ -4,6 +4,5 @@
   </div>
   <div class="article-info">
 		<?php print $fields['title']->content ?>
-    <?php print $fields['field_summary']->content ?>
   </div>
 </div>

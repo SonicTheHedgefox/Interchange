@@ -18,6 +18,9 @@ a:hover{
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.header_container{
+    padding: 0px 20px;
+}
 .course-type-bg-wrapper{
     overflow: hidden;
     background: transparent url(http://makeblock.studio/sites/all/themes/makercraft/images/course-typebg.png) repeat-y fixed top;

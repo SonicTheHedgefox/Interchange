@@ -117,33 +117,21 @@
 
 <div class="main-content">
 	<div class="wrapper-grey">
-		<div class="slideshow">
-			<?php $block = module_invoke('views', 'block_view', 'slideshow-block');
-			print render($block['content']);?>
-		</div>
+ 
 	</div>
 	<div class="wrapper-white">
 		<div class="container">	
-			<div class="text-line">
-				<h5><span>精品课程</span><div class="line"></div></h5>
-				<div class="subtitle">好好学习、天天向上</div>
-			</div>
+ 
 		</div>
 	</div>	
 	<div class="wrapper-grey">
 		<div class="container">
-			<div class="text-line">
-				<h5><span>推荐班级</span><div class="line"></div></h5>
-				<div class="subtitle">班级化学习体系，给你更多的课程相关服务。</div>
-			</div>
+ 
 		</div>
 	</div>
 	<div class="wrapper-white">
 		<div class="container">	
-			<div class="text-line">
-				<h5><span>新鲜资讯</span><div class="line"></div></h5>
-				<div class="subtitle">补充新鲜养分，给创客教育向上的力量</div>
-			</div>
+ 
 		</div>
 	</div>		
 </div>

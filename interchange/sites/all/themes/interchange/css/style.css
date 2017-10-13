@@ -182,8 +182,8 @@ h3.box-title{
     font-weight: 600;
 }
 .topbanner-thumb{
-    width: 220px;
-    height: 180px;
+    width: 49%;
+    height: 180px;  
     display: block;
     position: relative;
     margin-bottom: 15px;
@@ -191,6 +191,7 @@ h3.box-title{
     margin-right: 20px;
 }
 .topbanner-info{
+    width: 49%;
     float: left;
 }
 .main-container{

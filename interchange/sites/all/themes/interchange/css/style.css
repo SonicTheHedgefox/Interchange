@@ -181,6 +181,10 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 h3.box-title{
     font-weight: 600;
 }
+.topbanner-box{
+    width: 100%;
+    overflow: hidden;
+}
 .topbanner-thumb{
     width: 49%;
     height: 180px;  

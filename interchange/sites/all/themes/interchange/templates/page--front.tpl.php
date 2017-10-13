@@ -141,7 +141,7 @@
 	 	</div>
 	 	<div style="clear:both"></div>
 		
-		<div class="panel-title">
+		<div class="section-title">
 			<div class="inner"><a href="/latest">Latest »</a></div>
 		</div>
 	 	

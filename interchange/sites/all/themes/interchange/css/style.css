@@ -158,11 +158,10 @@ h3.box-title,h4.box-title{
     border: none;
     background-color: #fff;
 }
-.sidebar .front{
+.front .col-md-3{
     padding-left: 0px;
     margin-left: -20px;
 }
-
 
 .section-title{
     border-top: 1px solid #d8d8d8;

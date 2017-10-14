@@ -115,6 +115,8 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 
 h3.box-title,h4.box-title{
     font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .topbanner{
     overflow: hidden;

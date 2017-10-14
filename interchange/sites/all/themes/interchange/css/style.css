@@ -220,7 +220,7 @@ img.language-icon.img-responsive {
 }
 
 #block-menu-menu-navbars li.first.leaf a:before{
-    content: "\f067";
+    content: "\002b";
 }
 #block-menu-menu-navbars li.last.leaf a:before{
     content: "\e019";

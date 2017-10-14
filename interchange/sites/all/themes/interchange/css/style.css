@@ -2,6 +2,7 @@ body{
     font-family:'Microsoft YaHei','Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
     background-color:#fff;
     color: rgb(97, 97, 97);
+    font-size: 16px;
 }
 a{
     color: #313131;

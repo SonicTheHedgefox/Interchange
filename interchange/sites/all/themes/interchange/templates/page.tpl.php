@@ -122,7 +122,7 @@
 				
 				</div>
 
-				<div class="sidebar col-md-3">
+				<div class="sidebar innerpage col-md-3">
 	 
 
 						<?php 

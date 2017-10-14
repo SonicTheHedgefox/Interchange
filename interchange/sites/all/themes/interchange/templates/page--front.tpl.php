@@ -154,7 +154,7 @@
 						?>	
 				</div>
 
-				<div class="sidebar col-md-3">
+				<div class="sidebar front col-md-3">
 	 
 
 						<?php 

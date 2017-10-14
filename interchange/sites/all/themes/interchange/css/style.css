@@ -202,10 +202,17 @@ span.tag-mark a:hover{
     color:#46c8c8;
 }
 
-
+ul.language-switcher-locale-session {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
 
 .language-switcher-locale-session li{
     list-style: none;
+    float: left;
+    display: block;
+    padding-right: 10px
 }
 
 

@@ -52,7 +52,9 @@ nav.navheader.front{
     margin-bottom: 0px;
     top: 3px;
 }
-
+nav.navheader.innerpage{
+    position: relative;
+}
 a.icelogo{
     margin:0;
 }

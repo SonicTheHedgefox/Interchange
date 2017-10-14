@@ -76,7 +76,7 @@
 <div class="top_color_bar">
 	<div class="color_bar"></div>
 </div>
-<nav class="navheader front">
+<nav class="navheader innerpage">
 	<div class="header_container">
 		<div class="navbar-header">
 			<?php if ($logo): ?>

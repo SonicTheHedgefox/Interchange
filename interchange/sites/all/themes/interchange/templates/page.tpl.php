@@ -118,6 +118,10 @@
 	 	<div class="main-content">
 				<div class="content-list col-md-9">
 		  			
+
+		  			<?php if (!empty($page['highlighted'])): ?>
+       				<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+      				<?php endif; ?>
 		  			<?php print render($page['content']); ?>
 				
 				</div>

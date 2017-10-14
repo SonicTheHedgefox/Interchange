@@ -186,15 +186,17 @@ span.tag-mark{
     padding: 0 .5rem;
     color: #fff;
     background: rgba(0,0,0,.5);
-    font-size: .7rem;
+    font-size: 12px;
     text-align: center;
     border-radius: 1rem;
     z-index: 11;
 }
 span.tag-mark a{
-    color: #fff;
+    color:#46c8c8;
 }
-
+span.tag-mark a:hover{
+    color: #;
+}
 
 @media (min-width: 768px){
 

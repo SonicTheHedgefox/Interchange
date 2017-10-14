@@ -86,6 +86,7 @@
    <div class="node-info">
       <span class="node-info"><?php print render($created);?></span>
       <span class="node-info"><?php print render($user_picture);?></span>
+      <span class="node-info"><?php print render($name);?></span>      
    </div>
 
     <?php print render($title_prefix); ?>

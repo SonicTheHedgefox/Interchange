@@ -84,7 +84,7 @@
   <header>
    <?php if (!empty($title)): ?><h2 class="page-header"><?php print $title; ?></h2><?php endif; ?>
    <div class="node-info">
-      <span class="node-info"><?php echo date_format($date,"Y/m/d");?></span>
+      <span class="node-info"><?php print format_date($created ,'custom','F j, Y'); ?></span>
 
       <span class="node-info"> <?php print $user_picture; ?> </span>
       <span class="node-info"><?php print render($name);?></span>      

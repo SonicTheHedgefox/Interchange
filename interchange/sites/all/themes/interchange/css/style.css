@@ -222,6 +222,9 @@ img.language-icon.img-responsive {
 #block-menu-menu-navbars li.first.leaf a:before{
     content: "\f067";
 }
+#block-menu-menu-navbars li.last.leaf a:before{
+    content: "\e019";
+}
 
 
 @media (min-width: 768px){

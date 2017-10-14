@@ -83,6 +83,11 @@
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
    <?php if (!empty($title)): ?><h2 class="page-header"><?php print $title; ?></h2><?php endif; ?>
+   <div class="node-info">
+      <span class="node-info"><?php print $created;?></span>
+      <span class="node-info"><?php print $user_picture;?></span>
+   </div>
+
     <?php print render($title_prefix); ?>
     <?php if (!$page && !empty($title)): ?>
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>

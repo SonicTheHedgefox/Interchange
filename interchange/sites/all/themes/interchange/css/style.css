@@ -192,10 +192,10 @@ span.tag-mark{
     z-index: 11;
 }
 span.tag-mark a{
-    color:#46c8c8;
+    color: #fff;
 }
 span.tag-mark a:hover{
-    color: #;
+    color:#46c8c8;
 }
 
 @media (min-width: 768px){

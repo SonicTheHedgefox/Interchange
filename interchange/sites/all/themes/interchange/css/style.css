@@ -158,7 +158,7 @@ h3.box-title,h4.box-title{
     border: none;
     background-color: #fff;
 }
-.sidebar .front .col-md-3 {
+.sidebar .front{
     padding-left: 0px;
     margin-left: -20px;
 }

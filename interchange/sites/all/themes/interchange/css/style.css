@@ -202,6 +202,13 @@ span.tag-mark a:hover{
     color:#46c8c8;
 }
 
+
+
+.language-switcher-locale-session li{
+    list-style: none;
+}
+
+
 @media (min-width: 768px){
 
     nav.topbarmenu ul.menu{

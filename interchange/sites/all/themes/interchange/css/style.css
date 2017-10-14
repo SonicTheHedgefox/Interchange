@@ -219,6 +219,11 @@ img.language-icon.img-responsive {
     height: 16px;
 }
 
+#blocck-menu-menu-navbars li.first.leaf:before{
+    content: "\f067";
+}
+
+
 @media (min-width: 768px){
 
     nav.topbarmenu ul.menu{

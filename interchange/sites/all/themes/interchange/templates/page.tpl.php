@@ -125,24 +125,10 @@
 				
 				</div>
 
-				<div class="sidebar innerpage col-md-3">
+				<div class="sidebar front col-md-3">
 	 
-
-						<?php 
-						$block = module_invoke('views', 'block_view', 'recommend_box-block');
-					    print render($block); 
-						?>		
-
-						<?php 
-						$block = module_invoke('views', 'block_view', 'recommend_box-block_1');
-					    print render($block); 
-						?>	
-
-						<?php 
-						$block = module_invoke('views', 'block_view', 'recommend_box-block_2');
-					    print render($block); 
-						?>	
-	 
+		  			<?php print render($page['sidebar_first']); ?>
+ 
 				</div>	
 	 	</div>
  	</div>

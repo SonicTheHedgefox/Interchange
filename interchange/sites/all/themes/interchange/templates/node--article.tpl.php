@@ -82,14 +82,16 @@
 <article id="node-<?php print $node->nid; ?>" class="whiteblock <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
-   <?php if (!empty($title)): ?><h2 class="page-header"><?php print $title; ?></h2><?php endif; ?>
-   <div class="node-info">
-      <span class="node-info"><?php print format_date($created ,'custom','Y-n-j'); ?></span>
+    <div class="node-header">
+    <h2 class="node-header"><?php print $title; ?><h2>
+     <div class="node-info">
+        <span class="node-upic"> <?php print $user_picture; ?> </span>
+        <span class="node-uname"><?php print render($name);?></span> 
+        <span class="node-date"><?php print format_date($created ,'custom','Y-n-j'); ?></span>
 
-      <span class="node-info"> <?php print $user_picture; ?> </span>
-      <span class="node-info"><?php print render($name);?></span>      
-   </div>
-
+        <i class="fa fa-comments-o" aria-hidden="true"></i><i class="icon_after"><?php print $fields['total_count']->content ?></i>
+     </div>
+    </div> 
     <?php print render($title_prefix); ?>
     <?php if (!$page && !empty($title)): ?>
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>

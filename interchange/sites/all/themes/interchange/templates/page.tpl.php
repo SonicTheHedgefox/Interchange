@@ -81,7 +81,7 @@
 		<div class="navbar-header">
 			<?php if ($logo): ?>
 				<a class="logo icelogo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-				  <img src="http://120.55.41.227:82/sites/default/files/innerlogo.png alt="<?php print t('Home'); ?>" />
+				  <img src="http://120.55.41.227:82/sites/default/files/innerlogo.png" alt="<?php print t('Home'); ?>" />
 				</a>
 			<?php endif; ?>
 		

@@ -64,6 +64,7 @@ nav.navheader.front {
 
 nav.navheader.innerpage {
     position: relative;
+    background-color: #fff;
 }
 
 a.icelogo {
@@ -85,13 +86,20 @@ nav.topbarmenu ul.menu li.active {
     color: #46c8c8;
 }
 
-nav.topbarmenu ul.menu a.active {
-    color: #46c8c8;
-}
-
 nav.topbarmenu a:hover, nav.topbarmenu a:focus {
     text-decoration: none;
     background: none;
+}
+
+nav.topbarmenu.innerpage ul.menu a {
+    color:#46c8c8;
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
+}
+
+nav.topbarmenu.innerpage ul.menu li.active {
+    color: #46c8c8;
 }
 
 .slideshow .flexslider {

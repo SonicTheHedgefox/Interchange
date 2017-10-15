@@ -83,7 +83,7 @@
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
 
     <div class="node-header">
-    <h3 class="node-header"><?php print $title; ?></h3>
+    <h3 class="node-title"><?php print $title; ?></h3>
     <?php print $user_picture; ?>     
      <div class="node-info">
         <span class="node-uname"><?php print render($name);?></span> 

@@ -46,8 +46,7 @@ a:hover {
     background: #46c8c8;
 }
 
-
-/**Front page Css**/
+ 
 
 nav.navheader {
     background-color: rgba(34, 34, 34, .6);
@@ -97,7 +96,7 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 }
 
 nav.topbarmenu.innerpage ul.menu a {
-    color:#46c8c8;
+    color:#333;
     font-size: 18px;
     display: block;
     padding: 10px 20px;

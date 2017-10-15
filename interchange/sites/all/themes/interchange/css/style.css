@@ -235,7 +235,10 @@ ul.language-switcher-locale-session {
 img.language-icon.img-responsive {
     height: 16px;
 }
- 
+.user-picture{
+    width: 100px;
+    float: left;
+} 
 .user-picture img{
     width: 80px;
     height: 80px;

@@ -89,7 +89,7 @@
         <span class="node-uname"><?php print render($name);?></span> 
         <span class="node-date"><?php print format_date($created ,'custom','Y-n-j'); ?></span>
 
-        <i class="fa fa-comments-o" aria-hidden="true"></i><i class="icon_after"><?php print $fields['total_count']->content ?></i>
+        <i class="fa fa-comments-o" aria-hidden="true"></i><i class="icon_after"><?php print $fields['total_count']?></i>
      </div>
     </div> 
     <?php print render($title_prefix); ?>

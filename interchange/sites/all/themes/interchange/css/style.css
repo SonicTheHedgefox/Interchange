@@ -97,7 +97,8 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 
 nav.topbarmenu.innerpage ul.menu a {
     color:#333;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     display: block;
     padding: 10px 20px;
 }

@@ -260,6 +260,7 @@ h3.node-header{
     display: inline-block;
     float: left;
     padding-right: 5px;
+    color: #46c8c8;
 }
 @media (min-width: 768px) {
     nav.topbarmenu ul.menu {

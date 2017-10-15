@@ -249,8 +249,8 @@ img.language-icon.img-responsive {
     nav.topbarmenu ul.menu {
         padding: 19px;
     }
-    nav.insidepage ul.menu {
-        padding: 0;
+    nav.topbarmenu.innerpage ul.menu {
+        padding: 10px;
     }
     nav.insidepage ul.menu li {
         padding: 6px 5px;

@@ -241,7 +241,12 @@ img.language-icon.img-responsive {
     height: 80px;
     border-radius: 50%;
 }
-
+.node-info {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    line-height: 100px;
+}
 
 @media (min-width: 768px) {
     nav.topbarmenu ul.menu {

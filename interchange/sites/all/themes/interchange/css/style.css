@@ -234,13 +234,7 @@ ul.language-switcher-locale-session {
 img.language-icon.img-responsive {
     height: 16px;
 }
-
-.node-upic img{
-    display: block;
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
-}
+ 
 
 @media (min-width: 768px) {
     nav.topbarmenu ul.menu {

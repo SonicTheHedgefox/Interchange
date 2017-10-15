@@ -1,14 +1,14 @@
 body {
     font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
     background-color: #fff;
-    color: #313131;
+    color: #333;
     font-size: 16px;
     word-wrap: break-word;
 }
 
 a {
     font-size: 16px;
-    color: #313131;
+    color: #333;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;

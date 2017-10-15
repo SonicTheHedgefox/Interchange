@@ -236,32 +236,7 @@ img.language-icon.img-responsive {
     height: 16px;
 }
 
-h3.node-header{
-    font-weight: 500;
-}
-.node-header{
-    width: 100%;
-    overflow: hidden;
-}
-.user-picture{
-    width: 100px;
-    float: left;
-} 
-.user-picture img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.node-info {
-    float: left;
-    line-height: 60px;
-}
-.field-name-field-tags .field-item a{
-    display: inline-block;
-    float: left;
-    padding-right: 5px;
-    color: #46c8c8;
-}
+
 @media (min-width: 768px) {
     nav.topbarmenu ul.menu {
         padding: 19px;

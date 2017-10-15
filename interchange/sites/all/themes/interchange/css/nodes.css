@@ -17,6 +17,7 @@ h3.node-header{
 .node-info {
     float: left;
     line-height: 60px;
+    color: #666;
 }
 .field-name-field-tags .field-item a{
     display: inline-block;

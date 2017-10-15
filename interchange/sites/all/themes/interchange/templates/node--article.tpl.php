@@ -89,7 +89,7 @@
         <span class="node-uname"><?php print render($name);?></span> 
         <span class="node-date"><?php print format_date($created ,'custom','Y-n-j'); ?></span>
 
-        <i class="fa fa-eye-o" aria-hidden="true"></i>
+        <i class="fa fa-eye" aria-hidden="true"></i>
         <i class="icon_after">
           <?php 
           $node_stats = statistics_get($nid);

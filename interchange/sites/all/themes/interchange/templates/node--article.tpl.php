@@ -81,7 +81,7 @@
 ?>
 <article id="node-<?php print $node->nid; ?>" class="whiteblock <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
-  <header>
+
     <div class="node-header">
     <h2 class="node-header"><?php print $title; ?></h2>
      <div class="node-info">
@@ -104,8 +104,7 @@
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-
-  </header>
+ 
   <?php endif; ?>
   <?php
     // Hide comments, tags, and links now so that we can render them later.

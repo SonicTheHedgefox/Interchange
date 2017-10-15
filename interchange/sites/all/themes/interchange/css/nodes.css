@@ -6,7 +6,7 @@ h3.node-header{
     overflow: hidden;
 }
 .user-picture{
-    width: 100px;
+    width: 70px;
     float: left;
 } 
 .user-picture img{
@@ -23,4 +23,10 @@ h3.node-header{
     float: left;
     padding-right: 5px;
     color: #46c8c8;
+}
+.node-i{
+    padding-right:10px;
+}
+.node-i i{
+    padding-right:5px;
 }

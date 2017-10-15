@@ -73,11 +73,11 @@
  * @ingroup templates
  */
 ?>
-<div class="top_color_bar">
+<!-- <div class="top_color_bar">
 	<div class="color_bar"></div>
-</div>
+</div> -->
 <nav class="navheader innerpage">
-	<div class="header_container">
+	<div class="header_container innerpage">
 		<div class="navbar-header">
 			<?php if ($logo): ?>
 				<a class="logo icelogo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">

@@ -86,7 +86,6 @@
     <h3 class="node-header"><?php print $title; ?></h3>
     <?php print $user_picture; ?>     
      <div class="node-info">
-        <span class="node-tag"><?php print render($content['field_tags']); ?></span>
         <span class="node-uname"><?php print render($name);?></span> 
         <span class="node-date"><?php print format_date($created ,'custom','Y-n-j'); ?></span>
         <span class="node-readcount"><i class="fa fa-eye" aria-hidden="true"></i>   
@@ -107,7 +106,13 @@
     hide($content['field_tags']);
     print render($content);
   ?>
-
+  <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
+  <footer>
+    <?php print render($content['field_tags']); ?>
+    <?php print render($content['links']); ?>
+  </footer>
+  <?php endif; ?>
+  
 </article>
   <?php if (!empty($content['comments'])): ?>
   <div class="whiteblock">

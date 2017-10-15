@@ -237,6 +237,7 @@ img.language-icon.img-responsive {
 }
 .node-header{
     width: 100%;
+    overflow: hidden;
 }
 .user-picture{
     width: 100px;
@@ -249,7 +250,7 @@ img.language-icon.img-responsive {
 }
 .node-info {
     float: left;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 @media (min-width: 768px) {

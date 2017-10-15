@@ -83,13 +83,13 @@
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
     <div class="node-header">
-    <h2 class="node-header"><?php print $title; ?><h2>
+    <h2 class="node-header"><?php print $title; ?></h2>
      <div class="node-info">
         <span class="node-upic"> <?php print $user_picture; ?> </span>
         <span class="node-uname"><?php print render($name);?></span> 
         <span class="node-date"><?php print format_date($created ,'custom','Y-n-j'); ?></span>
 
-        <i class="fa fa-comments-o" aria-hidden="true"></i><i class="icon_after"><?php print $fields['total_count']?></i>
+        <i class="fa fa-comments-o" aria-hidden="true"></i><i class="icon_after"><?php print $fields['totalcount']->content ?></i>
      </div>
     </div> 
     <?php print render($title_prefix); ?>

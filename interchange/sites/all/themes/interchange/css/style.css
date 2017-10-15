@@ -218,11 +218,10 @@ ul.language-switcher-locale-session {
 img.language-icon.img-responsive {
     height: 16px;
 }
-.user-picture{
-    display: block;
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
+.user-picture img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 @media (min-width: 768px){

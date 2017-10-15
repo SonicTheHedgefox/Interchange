@@ -83,14 +83,13 @@
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
 
     <div class="node-header">
-    <h2 class="node-header"><?php print $title; ?></h2>
+    <h3 class="node-header"><?php print $title; ?></h3>
     <?php print $user_picture; ?>     
      <div class="node-info">
         <span class="node-uname"><?php print render($name);?></span> 
         <span class="node-date"><?php print format_date($created ,'custom','Y-n-j'); ?></span>
         <span class="node-readcount"><i class="fa fa-eye" aria-hidden="true"></i>   
           <?php $node_stats = statistics_get($nid);$node_reads = $node_stats['totalcount'];print $node_reads;?></span>
-
      </div>
     </div> 
     <?php print render($title_prefix); ?>

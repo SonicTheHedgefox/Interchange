@@ -235,6 +235,9 @@ ul.language-switcher-locale-session {
 img.language-icon.img-responsive {
     height: 16px;
 }
+.node-header{
+    width: 100%;
+}
 .user-picture{
     width: 100px;
     float: left;
@@ -245,9 +248,7 @@ img.language-icon.img-responsive {
     border-radius: 50%;
 }
 .node-info {
-    display: block;
-    width: 100%;
-    overflow: hidden;
+    float: left;
     line-height: 100px;
 }
 

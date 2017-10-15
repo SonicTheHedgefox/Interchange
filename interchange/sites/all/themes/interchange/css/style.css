@@ -248,13 +248,13 @@ h3.node-header{
     float: left;
 } 
 .user-picture img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 .node-info {
     float: left;
-    line-height: 80px;
+    line-height: 60px;
 }
 .field-name-field-tags .field-item a{
     display: inline-block;

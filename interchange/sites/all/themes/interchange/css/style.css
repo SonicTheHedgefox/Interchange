@@ -218,14 +218,12 @@ ul.language-switcher-locale-session {
 img.language-icon.img-responsive {
     height: 16px;
 }
-
-#block-menu-menu-navbars li.first.leaf a:before{
-     
+.node-upic{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
 }
-#block-menu-menu-navbars li.last.leaf a:before{
-    
-}
-
 
 @media (min-width: 768px){
 

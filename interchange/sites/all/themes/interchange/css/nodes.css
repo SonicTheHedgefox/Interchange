@@ -27,6 +27,9 @@ h3.node-header{
 .node-i{
     padding-right:10px;
 }
+span.username{
+	font-weight: 600;
+}
 .node-i i{
     padding-right:5px;
 }

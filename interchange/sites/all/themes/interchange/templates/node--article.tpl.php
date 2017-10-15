@@ -86,7 +86,7 @@
     <h3 class="node-title"><?php print $title; ?></h3>
     <?php print $user_picture; ?>     
      <div class="node-info">
-        <span class="node-i"><i class="fa fa-user-o" aria-hidden="true"></i><?php print render($name);?></span> 
+        <span class="node-i username"><?php print render($name);?></span> 
         <span class="node-i"><i class="fa fa-clock-o" aria-hidden="true"></i><?php print format_date($created ,'custom','Y-n-j'); ?></span>
         <span class="node-i"><i class="fa fa-eye" aria-hidden="true"></i>   
           <?php $node_stats = statistics_get($nid);$node_reads = $node_stats['totalcount'];print $node_reads;?></span>

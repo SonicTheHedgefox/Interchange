@@ -19,12 +19,15 @@ h3.node-header{
     line-height: 60px;
     color: #666;
 }
-.field-name-field-tags .field-item {
-    display: inline-block;
+.tag-icon{
+	float: right;
 }
 .field-name-field-tags{
 	float: right;
-	line-height: 16px;
+	line-height: 60px;
+}
+.field-name-field-tags .field-item {
+    display: inline-block;
 }
 .field-name-field-tags .field-item a{
     display: inline-block;

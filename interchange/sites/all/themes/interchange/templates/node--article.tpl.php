@@ -91,6 +91,7 @@
         <span class="node-i"><i class="fa fa-eye" aria-hidden="true"></i>   
           <?php $node_stats = statistics_get($nid);$node_reads = $node_stats['totalcount'];print $node_reads;?></span>
      </div>
+    <div class="tag-icon"><i class="fa fa-tag" aria-hidden="true"></i></div>
     <?php print render($content['field_tags']); ?>
     </div> 
     <?php print render($title_prefix); ?>

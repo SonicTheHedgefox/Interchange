@@ -23,12 +23,12 @@ h3.node-header{
     float: left;
     line-height: 60px;
     padding-right: 10px;
+    color: #666;
+    padding-left: 10px;	    
 }
 .field-name-field-tags{
 	float: left;
 	line-height: 60px;
-    color: #666;
-    padding-left: 10px;	
 }
 .field-name-field-tags .field-item {
     display: inline-block;

@@ -19,11 +19,13 @@ h3.node-header{
     line-height: 60px;
     color: #666;
 }
-.tag-icon{
-	float: right;
+.tag-icon {
+    float: left;
+    line-height: 60px;
+    padding-right: 10px;
 }
 .field-name-field-tags{
-	float: right;
+	float: left;
 	line-height: 60px;
 }
 .field-name-field-tags .field-item {

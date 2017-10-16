@@ -121,22 +121,20 @@
  	<div class="row"> 	
 
 	 	<div class="topbanner">
-	 		<div class="col-md-6">
+	 		 
 	 			 
 	 				<?php 
 						$block = module_invoke('views', 'block_view', 'top_banner-block');
 				    	print render($block); 
 					?>	
-	 		</div>	 
-
-	 		<div class="col-md-6">
+	 	 
 	 			 
 	 				<?php 
 						$block = module_invoke('views', 'block_view', 'top_banner-block_1');
 				    	print render($block); 
 					?>	 				
 	 			 
-	 		</div>
+	 		 
 	 		<div style="clear:both;"></div>
 	 	</div>
 	 	<div style="clear:both"></div>

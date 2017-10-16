@@ -121,20 +121,7 @@
  	<div class="row"> 	
 
 	 	<div class="topbanner">
-	 		 
-	 			 
-	 				<?php 
-						$block = module_invoke('views', 'block_view', 'top_banner-block');
-				    	print render($block); 
-					?>	
-	 	 
-	 			 
-	 				<?php 
-						$block = module_invoke('views', 'block_view', 'top_banner-block_1');
-				    	print render($block); 
-					?>	 				
-	 			 
-	 		 
+	 		 <?php print render($page['top_banner']); ?>	 
 	 		<div style="clear:both;"></div>
 	 	</div>
 	 	<div style="clear:both"></div>

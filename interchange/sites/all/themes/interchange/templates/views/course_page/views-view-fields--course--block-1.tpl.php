@@ -1,1 +1,0 @@
-<li class="lesson-list"> <i class="fa fa-circle-o" aria-hidden="true"></i> <i class="lesson-list-title"><?php print $fields['field_course_lesson_title']->content ?> </i></li>

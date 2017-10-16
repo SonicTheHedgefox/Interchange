@@ -22,6 +22,10 @@ h3.node-header{
 .field-name-field-tags .field-item {
     display: inline-block;
 }
+.field-name-field-tags{
+	float: right;
+	line-height: 16px;
+}
 .field-name-field-tags .field-item a{
     display: inline-block;
     float: left;

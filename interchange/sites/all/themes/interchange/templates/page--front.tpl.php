@@ -121,7 +121,12 @@
  	<div class="row"> 	
 
 	 	<div class="topbanner">
-	 		 <?php print render($page['top_banner']); ?>	 
+	 		<div class="col-md-6">
+	 			 <?php print render($page['top_banner_slideshow']); ?>
+	 		</div>	 
+	 		<div class="col-md-6"> 
+				<?php print render($page['top_banner_list']); ?>	
+	 		</div>
 	 		<div style="clear:both;"></div>
 	 	</div>
 	 	<div style="clear:both"></div>

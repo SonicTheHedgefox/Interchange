@@ -49,6 +49,7 @@ h3.node-header {
 }
 .field-name-field-tags .field-item a:hover{
 	color: #00a185;
+	text-emphasis: cursor: default;;
 }
 .node-i {
     padding-right: 10px;

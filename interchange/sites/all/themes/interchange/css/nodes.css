@@ -61,4 +61,6 @@ span.username {
 }
 .field-name-field-body a{
 	color: #46c8c8;
+}.field-name-field-body a:hover{
+	color: #00a185;
 }

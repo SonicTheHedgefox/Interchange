@@ -136,7 +136,7 @@
 		</div>
 	 	
 	 	<div class="main-content">
-				<div class="content-list col-md-9">
+				<div class="front-content-list col-md-9">
 					 
 						<?php 
 						$block = module_invoke('views', 'block_view', 'article_list-block');

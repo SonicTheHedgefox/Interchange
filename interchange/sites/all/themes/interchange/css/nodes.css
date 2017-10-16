@@ -1,50 +1,61 @@
-h3.node-header{
+h3.node-header {
     font-weight: 500;
 }
-.node-header{
+
+.node-header {
     width: 100%;
     overflow: hidden;
 }
-.user-picture{
+
+.user-picture {
     width: 70px;
     float: left;
-} 
-.user-picture img{
+}
+
+.user-picture img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
+
 .node-info {
     float: left;
     line-height: 60px;
     color: #666;
 }
+
 .tag-icon {
     float: left;
     line-height: 60px;
     padding-right: 10px;
     color: #666;
-    padding-left: 10px;	    
+    padding-left: 10px;
 }
-.field-name-field-tags{
-	float: left;
-	line-height: 60px;
+
+.field-name-field-tags {
+    float: left;
+    line-height: 60px;
 }
+
 .field-name-field-tags .field-item {
     display: inline-block;
 }
-.field-name-field-tags .field-item a{
+
+.field-name-field-tags .field-item a {
     display: inline-block;
     float: left;
     padding-right: 5px;
     color: #46c8c8;
 }
-.node-i{
-    padding-right:10px;
+
+.node-i {
+    padding-right: 10px;
 }
-span.username{
-	font-weight: 600;
+
+span.username {
+    font-weight: 600;
 }
-.node-i i{
-    padding-right:5px;
+
+.node-i i {
+    padding-right: 5px;
 }

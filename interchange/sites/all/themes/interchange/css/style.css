@@ -183,7 +183,7 @@ h3.box-title, h4.box-title {
     width: 100%;
 }
 
-.content-list .masonry-item {
+.front-content-list .masonry-item {
     padding: 0;
     margin: 0 0 20px 0;
     border: none;
@@ -274,7 +274,7 @@ img.language-icon.img-responsive {
 }
 
 @media (max-width:768px) {
-    .content-list .masonry-item {
+    .front-content-list .masonry-item {
         width: 100%;
     }
 }

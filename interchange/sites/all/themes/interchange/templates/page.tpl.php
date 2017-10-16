@@ -113,7 +113,8 @@
 </nav>
  
 <div class="main container">
- 	<div class="row"> 	
+ 	<div class="row">
+ 	<?php if (!empty($top_banner_slideshow) || !empty($top_banner_list) ): ?> 	
 	 	<div class="topbanner">
 	 		<div class="col-md-6">
 	 			 <?php print render($page['top_banner_slideshow']); ?>
@@ -123,6 +124,7 @@
 	 		</div>
 	 		<div style="clear:both;"></div>
 	 	</div>
+	 	<?php endif; ?>
 	 	<div class="main-content">
 				<div class="content-list col-md-9">
 		  			

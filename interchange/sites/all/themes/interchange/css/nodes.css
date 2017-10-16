@@ -67,4 +67,8 @@ span.username {
     transition: all 0.3s ease;	
 }.field-name-field-body a:hover{
 	color: #00a185;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }

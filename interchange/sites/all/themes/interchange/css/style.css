@@ -256,7 +256,29 @@ img.language-icon.img-responsive {
     height: 16px;
 }
 
+.category-list li {
+    display: block;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+h2.block-title{
+    color: #6f7678;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
 
+
+a {
+
+
+        font-size: .875em;
+    padding: 3px 0px;
+    display: inline-block;
+}
 @media (min-width: 768px) {
     nav.topbarmenu ul.menu {
         padding: 19px;

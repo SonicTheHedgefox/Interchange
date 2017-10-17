@@ -273,8 +273,10 @@ ul {
     padding: 0px;
 }
 .btn-primary {
-    color: #fff;
     background-color: #46c8c8;
+    border-color: #3498db;
+}.btn-primary:hover{
+    background-color: #00a185;
     border-color: #3498db;
 }
 h2.block-title {

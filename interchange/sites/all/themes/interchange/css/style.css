@@ -276,15 +276,24 @@ ul {
 h2.block-title {
     font-size: 1.25em;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 10px;
 }
 
-a {
-    font-size: .875em;
-    padding: 3px 0px;
+
+.tag-cloud-wrapper a {
+    border: 1px solid #6f7678;
     display: inline-block;
+    font-size: .8em;
+    padding: 5px 10px;
+    margin: 0px 2px 5px 0px;
+}
+
+.tag-cloud-wrapper a:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #ffffff;
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,6 @@
+.view-blog h2{
+	display: none;
+}
+.view-blog .views-row{
+	border-bottom: 1px solid #46c8c8;
+}

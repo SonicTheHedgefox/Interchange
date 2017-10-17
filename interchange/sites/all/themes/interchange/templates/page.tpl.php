@@ -114,7 +114,7 @@
  
 <div class="main container">
  	<div class="row">
- 	<?php if (!empty($inner_top_banner_slideshow) || !empty($inner_top_banner_list) ): ?> 	
+  
 	 	<div class="topbanner">
 	 		<div class="col-md-6">
 	 			 <?php print render($page['inner_top_banner_slideshow']); ?>
@@ -124,7 +124,7 @@
 	 		</div>
 	 		<div style="clear:both;"></div>
 	 	</div>
-	 	<?php endif; ?>
+	 	 
 	 	<div class="main-content">
 				<div class="content-list col-md-9">
 		  			

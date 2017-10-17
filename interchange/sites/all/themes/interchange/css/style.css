@@ -24,12 +24,17 @@ a:hover {
     transition: all 0.3s ease;
 }
 
+li {
+    list-style-type: disc;
+}
+
 .header_container {
     width: 1200px;
     margin: 0px auto;
     padding: 0px 20px;
 }
-.header_container.innerpage{
+
+.header_container.innerpage {
     width: 100%;
 }
 
@@ -45,8 +50,6 @@ a:hover {
     height: 3px;
     background: #46c8c8;
 }
-
- 
 
 nav.navheader {
     background-color: rgba(34, 34, 34, .6);
@@ -76,9 +79,11 @@ a.icelogo {
 .topbarmenu {
     float: left;
 }
+
 .innerpage .topbarmenu {
     float: right;
 }
+
 nav.topbarmenu ul.menu a {
     color: #fff;
     font-size: 18px;
@@ -96,7 +101,7 @@ nav.topbarmenu a:hover, nav.topbarmenu a:focus {
 }
 
 nav.topbarmenu.innerpage ul.menu a {
-    color:#333;
+    color: #333;
     font-size: 16px;
     font-weight: 600;
     display: block;
@@ -139,20 +144,22 @@ nav.topbarmenu.innerpage ul.menu li.active {
 
 h3.box-title, h4.box-title {
     font-weight: 600;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .topbanner {
     overflow: hidden;
     margin-bottom: 20px;
 }
+
 .topbanner.innerpage {
-/*    overflow: hidden;
+    /*    overflow: hidden;
     margin-bottom: 20px;
     border: 1px solid #e5e5e5;
     padding-top: 15px;
     border-radius: 6px;*/
 }
+
 .topbanner-box {
     width: 100%;
     overflow: hidden;
@@ -189,7 +196,7 @@ h3.box-title, h4.box-title {
     width: 100%;
 }
 
- .masonry-item {
+.masonry-item {
     padding: 0;
     margin: 0 0 20px 0;
     border: none;
@@ -259,11 +266,13 @@ img.language-icon.img-responsive {
 .category-list li {
     display: block;
 }
+
 ul {
     margin: 0px;
     padding: 0px;
 }
-h2.block-title{
+
+h2.block-title {
     color: #6f7678;
     font-size: 1.25em;
     font-weight: 700;
@@ -271,14 +280,12 @@ h2.block-title{
     padding-bottom: 15px;
 }
 
-
 a {
-
-
-        font-size: .875em;
+    font-size: .875em;
     padding: 3px 0px;
     display: inline-block;
 }
+
 @media (min-width: 768px) {
     nav.topbarmenu ul.menu {
         padding: 19px;

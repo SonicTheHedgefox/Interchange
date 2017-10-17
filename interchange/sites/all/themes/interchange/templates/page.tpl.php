@@ -115,7 +115,7 @@
 <div class="main container">
  	<div class="row">
  	<?php if (!empty($page['inner_top_banner_slideshow']) || !empty($page['inner_top_banner_list']) ): ?> 	
-	 	<div class="topbanner">
+	 	<div class="topbanner innerpage">
 	 		<div class="col-md-6">
 	 			 <?php print render($page['inner_top_banner_slideshow']); ?>
 	 		</div>	 

@@ -117,10 +117,10 @@
  	<?php if (!empty($top_banner_slideshow) || !empty($top_banner_list) ): ?> 	
 	 	<div class="topbanner">
 	 		<div class="col-md-6">
-	 			 <?php print render($page['top_banner_slideshow']); ?>
+	 			 <?php print render($page['inner_top_banner_slideshow']); ?>
 	 		</div>	 
 	 		<div class="col-md-6"> 
-				<?php print render($page['top_banner_list']); ?>	
+				<?php print render($page['inner_top_banner_list']); ?>	
 	 		</div>
 	 		<div style="clear:both;"></div>
 	 	</div>

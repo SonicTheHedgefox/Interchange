@@ -2,5 +2,7 @@
 	display: none;
 }
 .view-blog .views-row{
-	border-bottom: 1px solid #46c8c8;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	border-bottom: 1px dashed #46c8c8;
 }

@@ -16,7 +16,7 @@ regions[top_banner_list]    = 'Front Top Banner List'
 regions[inner_top_banner_slideshow]    = 'Inner Top Banner Slideshow'
 regions[inner_top_banner_list]    = 'Inner Top Banner List'
 regions[content]        = 'Content'
-regions[sidebar_first]  = 'Primary'
+regions[sidebar_first]  = 'Sidebar_first'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 

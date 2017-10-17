@@ -25,7 +25,7 @@ a:hover {
 }
 
 li {
-    list-style-type: disc;
+    list-style-type: none;
 }
 
 .header_container {
@@ -219,7 +219,7 @@ h3.box-title, h4.box-title {
     background-color: #46c8c8;
     padding: 8px 16px;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.8em;
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -273,11 +273,11 @@ ul {
 }
 
 h2.block-title {
-    color: #6f7678;
     font-size: 1.25em;
+    margin-bottom: 0;
     font-weight: 700;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 a {

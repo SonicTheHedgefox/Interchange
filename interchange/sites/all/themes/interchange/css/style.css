@@ -145,6 +145,9 @@ h3.box-title, h4.box-title {
 .topbanner {
     overflow: hidden;
     margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    padding-top: 15px;
+    border-radius: 6px;
 }
 
 .topbanner-box {

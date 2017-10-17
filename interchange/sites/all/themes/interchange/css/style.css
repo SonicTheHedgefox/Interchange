@@ -281,8 +281,7 @@ h2.block-title {
     padding-bottom: 10px;
 }
 
-
-.tag-cloud-wrapper a {
+.view-category-list a {
     border: 1px solid #6f7678;
     display: inline-block;
     font-size: .8em;
@@ -290,8 +289,8 @@ h2.block-title {
     margin: 0px 2px 5px 0px;
 }
 
-.tag-cloud-wrapper a:hover {
-    background-color: #3498db;
+.view-category-list a:hover {
+    background-color: #46c8c8;
     border-color: #3498db;
     color: #ffffff;
 }

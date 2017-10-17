@@ -272,7 +272,11 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: #46c8c8;
+    border-color: #3498db;
+}
 h2.block-title {
     font-size: 1.25em;
     margin-bottom: 0;

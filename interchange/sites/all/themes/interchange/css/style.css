@@ -287,6 +287,7 @@ h2.block-title {
     font-size: .8em;
     padding: 5px 10px;
     margin: 0px 2px 5px 0px;
+    border-radius: .625em;
 }
 
 .view-category-list a:hover {

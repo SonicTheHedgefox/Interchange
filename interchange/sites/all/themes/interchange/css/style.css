@@ -122,7 +122,9 @@ nav.topbarmenu.innerpage ul.menu li.active {
 .slideshow .flex-control-nav {
     display: none;
 }
-
+.flex-direction-nav a:before {
+    color: #f6f6f6;
+}
 .slideshow img {
     width: 100%;
     height: auto;
@@ -302,6 +304,9 @@ h2 {
     background-color: #46c8c8;
     border-color: #3498db;
     color: #ffffff;
+}
+.box-info {
+    margin-top: 10px;
 }
 .box-info span{
     margin-right:1em;

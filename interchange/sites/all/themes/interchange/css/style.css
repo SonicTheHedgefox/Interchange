@@ -309,7 +309,7 @@ h2 {
 span.n-tag{
     float:left;
 }
-span.n-name,span.n-count{
+span.u-name,span.n-count{
     float:right;
 }
 span.n-tag a{

@@ -303,6 +303,15 @@ h2 {
     border-color: #3498db;
     color: #ffffff;
 }
+.box-info span{
+    margin-right:15px
+}
+span.n-tag{
+    float:left;
+}
+span.n-name,span.n-count{
+    float:right;
+}
 span.n-tag a{
     border: 1px solid #6f7678;
     display: inline-block;

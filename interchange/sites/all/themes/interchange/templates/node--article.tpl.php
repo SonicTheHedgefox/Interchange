@@ -81,7 +81,7 @@
 ?>
 <article id="node-<?php print $node->nid; ?>" class="whiteblock <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
-     <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+
     <div class="node-header">
     <h3 class="node-title"><?php print $title; ?></h3>
     <?php print $user_picture; ?>     

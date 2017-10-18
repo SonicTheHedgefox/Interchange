@@ -115,7 +115,7 @@
 <div class="main container">
  	<div class="row">
 		<?php if (!empty($breadcrumb)): ?>
-			<div class="breadcrumb">
+			<div class="breadcrumb-box">
 				<?php	print $breadcrumb; ?>
 			<?php endif;?> 
 		</div>

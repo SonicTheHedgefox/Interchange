@@ -114,6 +114,7 @@
  
 <div class="main container">
  	<div class="row">
+ 		     <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
  	<?php if (!empty($page['inner_top_banner_slideshow']) || !empty($page['inner_top_banner_list']) ): ?> 	
 	 	<div class="topbanner innerpage">
 	 		<div class="col-md-6">

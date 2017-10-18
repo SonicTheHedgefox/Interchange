@@ -227,24 +227,26 @@ h3.box-title, h4.box-title {
 
 span.tag-mark {
     position: absolute;
-    top: .4rem;
-    left: .4rem;
+    top: 0;
+    left: 0;
     display: block;
-    padding: 0 .5rem;
-    color: #fff;
-    background: rgba(0, 0, 0, .5);
+    background-color: #46c8c8;
+    border-color: #3498db;
+    color: #ffffff;
     font-size: 14px;
     text-align: center;
-    border-radius: 1rem;
     z-index: 11;
 }
 
 span.tag-mark a {
-    color: #fff;
+    background-color: #46c8c8;
+    color: #ffffff;
+    padding: 0 .5rem;
 }
 
 span.tag-mark a:hover {
     color: #46c8c8;
+    background-color: #fff;
 }
 
 ul.language-switcher-locale-session {

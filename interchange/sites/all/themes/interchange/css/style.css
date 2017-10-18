@@ -243,9 +243,10 @@ span.tag-mark {
 span.tag-mark a {
     background-color: #46c8c8;
     color: #ffffff;
-    padding: .5rem;
+    padding: .4rem.5rem;
+    display: block;
+    font-size: 1em;
 }
-
 span.tag-mark a:hover {
     color: #46c8c8;
     background-color: #fff;

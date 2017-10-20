@@ -100,24 +100,18 @@
 			  <?php if (!empty($primary_nav)): ?>
 				<?php print render($primary_nav); ?>
 			  <?php endif; ?>
-			  <?php if (!empty($secondary_nav)): ?>
-				
-
-<a href="#" class=" umenuicon"><i class="fa fa-user" data-toggle="modal" data-target=".bs-example-modal-lg"></i></a>
-
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <?php print render($secondary_nav); ?>
-    </div>
-  </div>
-</div>
-
-
-
-			  <?php endif; ?>
 			  <?php if (!empty($page['navigation'])): ?>
-				<?php print render ($page['navigation']); ?>
+
+				<a href="#" class=" umenuicon"><i class="fa fa-user" data-toggle="modal" data-target=".bs-example-modal-lg"></i></a>
+
+				<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+				  <div class="modal-dialog modal-lg" role="document">
+				    <div class="modal-content">
+						<?php print render ($page['navigation']); ?>
+				    </div>
+				  </div>
+				</div>
+
 			  <?php endif; ?>
 			</nav>
 		  </div>

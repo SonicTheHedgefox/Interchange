@@ -123,7 +123,7 @@ a.umenuicon {
 }
 
 .main-navigation {
-    position: fixed;
+/*    position: fixed;
     z-index: 7;
     top: 0;
     right: 0;
@@ -137,7 +137,7 @@ a.umenuicon {
     min-height: 100%!important;
     height: auto!important;
     background-color: #fa4646;
-    color: #fff;
+    color: #fff;*/
 }
 
 /*Header Menu End*/

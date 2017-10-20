@@ -104,7 +104,7 @@
 
 				<a href="#" class=" umenuicon"><i class="fa fa-user" data-toggle="modal" data-target=".bs-example-modal-lg"></i></a>
 
-				<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+				<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 				  <div class="modal-dialog modal-navigation" role="document">
 				    <div class="modal-navigation-content">
 						<div class="modal-header">
@@ -114,6 +114,7 @@
 						<div class="modal-body">
 							<?php print render ($page['navigation']); ?>
 						</div>
+
 				    </div>
 				  </div>
 				</div>

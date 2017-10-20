@@ -112,6 +112,36 @@ nav.topbarmenu.innerpage ul.menu a {
 nav.topbarmenu.innerpage ul.menu li.active {
     color: #46c8c8;
 }
+a.umenuicon {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    padding: 8px;
+    float: left;
+    line-height: 40px;
+}
+
+.main-navigation {
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    transition: none;
+    transition: right .4s ease;
+    right: -480px;
+    width: 100%;
+    opacity: 0;
+    min-height: 100%!important;
+    height: auto!important;
+    background-color: #fa4646;
+    color: #fff;
+}
+
+/*Header Menu End*/
+
 .breadcrumb{
     padding:10px 15px;
 }

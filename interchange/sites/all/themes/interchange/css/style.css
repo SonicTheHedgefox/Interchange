@@ -139,6 +139,20 @@ a.umenuicon {
     background-color: #46c8c8;
     color: #fff;
 }
+.nav-modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    right: 0;
+}
+.nav-modal .modal-dialog {
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+    right: -480px;
+}
 
 /*Header Menu End*/
 

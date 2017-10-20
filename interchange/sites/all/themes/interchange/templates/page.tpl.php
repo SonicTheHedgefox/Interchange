@@ -151,6 +151,7 @@
 					<?php if (!empty($tabs)): ?>
 					<?php print render($tabs); ?>
 					<?php endif; ?>
+					<?php print render($page['content_banner']); ?>
 		  			<?php print render($page['content']); ?>
 				
 				</div>

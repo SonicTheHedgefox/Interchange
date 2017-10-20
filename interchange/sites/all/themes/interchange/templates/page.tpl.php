@@ -107,7 +107,13 @@
 				<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 				  <div class="modal-dialog modal-navigation" role="document">
 				    <div class="modal-navigation-content">
-						<?php print render ($page['navigation']); ?>
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+							<h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+						</div>
+						<div class="modal-body">
+							<?php print render ($page['navigation']); ?>
+						</div>
 				    </div>
 				  </div>
 				</div>

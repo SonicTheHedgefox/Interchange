@@ -159,6 +159,10 @@ a.umenuicon {
 .breadcrumb{
     padding:10px 15px;
 }
+span.delimiter {
+    color: #ccc;
+    padding: 0 10px;
+}
 .slideshow .flexslider {
     border: none;
     width: auto;

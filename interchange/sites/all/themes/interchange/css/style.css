@@ -133,7 +133,6 @@ a.umenuicon {
     transition: right .4s ease;
     right: -480px;
     width: 100%;
-    opacity: 0;
     min-height: 100%!important;
     height: auto!important;
     background-color: #fa4646;

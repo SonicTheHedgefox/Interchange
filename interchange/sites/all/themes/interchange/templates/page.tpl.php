@@ -102,7 +102,7 @@
 			  <?php endif; ?>
 			  <?php if (!empty($page['navigation'])): ?>
 
-				<a href="#" class=" umenuicon"><i class="fa fa-user" data-toggle="modal" data-target=".ngv-modal"></i></a>
+				<a href="#" class=" umenuicon"><i class="fa fa-user" data-toggle="modal" data-target=".nav-modal"></i></a>
 
 				<div class="modal fade nav-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 				  <div class="modal-dialog modal-navigation" role="document">

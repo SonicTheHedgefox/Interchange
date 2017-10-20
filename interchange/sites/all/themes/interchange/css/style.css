@@ -123,6 +123,8 @@ a.umenuicon {
 }
 
 .modal-navigation {
+    width: 480px;
+    left: auto;
     position: fixed;
     z-index: 7;
     top: 0;
@@ -131,11 +133,9 @@ a.umenuicon {
     overflow: auto;
     transition: none;
     transition: right .4s ease;
-    right: -480px;
-    width: 100%;
     min-height: 100%!important;
     height: auto!important;
-    background-color: #fa4646;
+    background-color: #46c8c8;
     color: #fff;
 }
 

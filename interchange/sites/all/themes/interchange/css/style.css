@@ -231,7 +231,7 @@ h3.box-title, h4.box-title {
     position: relative;
     float: left;
 }
-.topbanner-thumb img:after{
+.topbanner-thumb img::after{
     position: absolute;
     bottom: 0;
     left: 0;

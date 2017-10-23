@@ -124,7 +124,7 @@
 		  </div>
 		<?php endif; ?>	
 	</div>
-</nav>s
+</nav>
  
 <div class="main container">
  	<div class="row"> 	

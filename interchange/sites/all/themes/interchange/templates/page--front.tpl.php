@@ -125,12 +125,7 @@
 		<?php endif; ?>	
 	</div>
 </nav>
-<div class="slideshow">
-	<?php 
-	$block = module_invoke('views', 'block_view', 'slideshow-block');
-    print render($block); 
-	?>     
-</div>
+
 <div class="main container">
  	<div class="row"> 	
 

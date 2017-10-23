@@ -231,6 +231,18 @@ h3.box-title, h4.box-title {
     position: relative;
     float: left;
 }
+.topbanner-thumb img:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 25px 0 0 21px;
+    content: "";
+}
 
 .topbanner-info {
     width: 60%;

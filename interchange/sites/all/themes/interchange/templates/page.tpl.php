@@ -145,23 +145,26 @@
 	 		<div style="clear:both;"></div>
 	 	</div>
 	 	<?php endif; ?>
-	 	<div class="main-content">
-				<div class="content-list col-md-9">
-		  			
-					<?php if (!empty($tabs)): ?>
-					<?php print render($tabs); ?>
-					<?php endif; ?>
-					<?php print render($page['content_banner']); ?>
-		  			<?php print render($page['content']); ?>
-				
-				</div>
-
-				<div class="sidebar front col-md-3">
+	    <div class="main-content">
+	    <section<?php print $content_column_class; ?>>
+	      <?php if (!empty($tabs)): ?>
+	        <?php print render($tabs); ?>
+	      <?php endif; ?>
 	 
-		  			<?php print render($page['sidebar_first']); ?>
- 
-				</div>	
-	 	</div>
+	          <?php if (!empty($tabs)): ?>
+	          <?php print render($tabs); ?>
+	          <?php endif; ?>
+	          <?php print render($page['content_banner']); ?>
+	          <?php print render($page['content']); ?>
+	          
+	    </section>
+
+	    <?php if (!empty($page['sidebar_second'])): ?>
+	      <aside class="col-sm-3" role="complementary">
+	        <?php print render($page['sidebar_second']); ?>
+	      </aside>  <!-- /#sidebar-second -->
+	    <?php endif; ?>
+	  </div>
  	</div>
 </div>
 

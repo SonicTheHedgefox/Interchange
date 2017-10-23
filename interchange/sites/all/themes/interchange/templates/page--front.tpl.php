@@ -76,12 +76,12 @@
 <div class="top_color_bar">
 	<div class="color_bar"></div>
 </div>
-<nav class="navheader front">
-	<div class="header_container">
+<nav class="navheader innerpage">
+	<div class="header_container innerpage">
 		<div class="navbar-header">
 			<?php if ($logo): ?>
 				<a class="logo icelogo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-				  <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+				  <img src="http://120.55.41.227:82/sites/default/files/innerlogo.png" alt="<?php print t('Home'); ?>" />
 				</a>
 			<?php endif; ?>
 		
@@ -96,24 +96,36 @@
 		</div>
 		<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
 		  <div class="navbar-collapse collapse">
-			<nav class="topbarmenu" role="navigation">
+			<nav class="topbarmenu innerpage" role="navigation">
 			  <?php if (!empty($primary_nav)): ?>
 				<?php print render($primary_nav); ?>
 			  <?php endif; ?>
-			  <?php if (!empty($secondary_nav)): ?>
-				<?php print render($secondary_nav); ?>
+			  <?php if (!empty($page['navigation'])): ?>
+
+				<a href="#" class=" umenuicon" data-toggle="modal" data-target=".nav-modal"><i class="fa fa-user" ></i></a>
+
+				<div class="modal nav-modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+				  <div class="modal-dialog modal-navigation" role="document">
+				    <div class="modal-navigation-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+							<h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+						</div>
+						<div class="modal-body">
+							<?php print render ($page['navigation']); ?>
+						</div>
+
+				    </div>
+				  </div>
+				</div>
+
 			  <?php endif; ?>
 			</nav>
 		  </div>
 		<?php endif; ?>	
 	</div>
-</nav>
-<div class="slideshow">
-	<?php 
-	$block = module_invoke('views', 'block_view', 'slideshow-block');
-    print render($block); 
-	?>     
-</div>
+</nav>s
+ 
 <div class="main container">
  	<div class="row"> 	
 

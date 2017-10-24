@@ -76,7 +76,9 @@
 <!-- <div class="top_color_bar">
 	<div class="color_bar"></div>
 </div> -->
-
+<div class="top_color_bar">
+	<div class="color_bar"></div>
+</div>
 <nav class="navheader innerpage">
 	<div class="header_container innerpage">
 		<div class="navbar-header">

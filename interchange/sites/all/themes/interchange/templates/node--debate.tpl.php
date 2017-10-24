@@ -83,7 +83,7 @@
   <div class="page-header">
     <h3 class="debate-title"><?php print $title; ?> </h3>
     <h2 class="debate-summary">
-      <?php render $content['field_debate_summary']; ?>
+      <?php print render($content['field_debate_summary'];) ?>
     </h2>
 
   </div>

@@ -88,16 +88,12 @@ span.username {
     border-left-width: 5px;
 }*/
 
-.debate-header {
-    position: relative;
-    color: #fff;
-    overflow: hidden;
-    min-height: 380px;
- 
-    opacity: .8;    
-}
 
-.debate-header::after {
+.debate-page-header {
+    position: relative;
+    padding:20px 0;
+}
+.debate-page-header::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -122,7 +118,13 @@ span.username {
     width: 100%;
     height: auto;
 }
-
+.debate-header {
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    min-height: 380px;
+    opacity: .8;    
+}
 h3.debate-title {
      
 }

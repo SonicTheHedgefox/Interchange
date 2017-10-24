@@ -111,10 +111,10 @@
 
 
 <?php $region = block_get_blocks_by_region('debate_block'); ?>
-<?php if (!empty($debate_block)): ?>
+<?php if (!empty($region)): ?>
      <div> 
         <?php
-            print render($debate_block);
+            print render($region);
         ?>
      </div>
 <?php endif;?>

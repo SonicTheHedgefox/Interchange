@@ -93,11 +93,7 @@ span.username {
     color: #fff;
     overflow: hidden;
     min-height: 380px;
-    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg fill='%231b0707' xmlns='http://www.w…32'%3E%3Cpath d='M0 0h279.988l-4.897 32h-275.090z'%3E%3C/path%3E%3C/svg%3E);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: "";
+ 
     opacity: .8;    
 }
 

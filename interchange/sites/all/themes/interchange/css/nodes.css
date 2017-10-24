@@ -75,7 +75,7 @@ span.username {
     transition: all 0.3s ease;
 }
 
-.debate-header{
+.debate-header .container{
     padding: 20px;
     border-radius: 3px;
     border: 1px solid #46c8c8;

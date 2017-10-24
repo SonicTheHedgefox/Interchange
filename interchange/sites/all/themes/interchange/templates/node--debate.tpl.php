@@ -81,7 +81,7 @@
 ?>
 <div class="debate-page-header">
 
-<div class="debate-bg"><?php print render($content['field_debate_bg']->url); ?></div>
+<div class="debate-bg"><?php print render($content['field_debate_bg']); ?></div>
 
   <div class="debate-header container">
       <h3 class="debate-title"><?php print $title; ?> </h3>

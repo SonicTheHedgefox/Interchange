@@ -79,7 +79,7 @@
  * @ingroup templates
  */
 ?>
-<div class="debate-header">
+<div class="debate-header container">
   <div class="page-header">
     <h3><?php print $title; ?> <small>Subtext for header</small></h3>
   </div>

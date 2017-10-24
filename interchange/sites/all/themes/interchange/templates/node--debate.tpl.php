@@ -79,9 +79,9 @@
  * @ingroup templates
  */
 ?>
-<article id="node-<?php print $node->nid; ?>" class="whiteblock <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+ 
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
-    <div class="bs-callout bs-callout-danger" id="callout-navbar-js">
+    <div class="debate-banner">
       <div class="node-header">
       <h3 class="node-title"><?php print $title; ?></h3>
       <?php print $user_picture; ?>     
@@ -95,13 +95,8 @@
       <?php print render($content['field_tags']); ?>
       </div> 
     </div>
-    <?php print render($title_prefix); ?>
-    <?php if (!$page && !empty($title)): ?>
-    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-    <?php endif; ?>
-    <?php print render($title_suffix); ?>
+
  
-  <?php endif; ?>
   <?php
     // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
@@ -113,8 +108,19 @@
   <footer>
   </footer>
   <?php endif; ?>
-  
-</article>
+
+
+<?php $region = block_get_blocks_by_region('debate_block'); ?>
+<?php if (!empty($debate_block)): ?>
+     <aside class="col-xs-0 col-sm-12" role="banner"> 
+        <?php
+            print render($debate_block);
+        ?>
+     </aside>
+<?php endif;?>
+
+
+ 
   <?php if (!empty($content['comments'])): ?>
   <div class="whiteblock">
     <?php print render($content['comments']); ?>

@@ -81,7 +81,7 @@
 ?>
   
 <div class="page-header">
-  <h1><?php print $title; ?> <small>Subtext for header</small></h1>
+  <h3><?php print $title; ?> <small>Subtext for header</small></h3>
 </div>
 <div class="container">
   

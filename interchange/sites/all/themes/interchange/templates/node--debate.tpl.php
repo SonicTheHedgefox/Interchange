@@ -109,15 +109,7 @@
   </footer>
   <?php endif; ?>
 
-<?php if (!empty($region)): ?>
-<?php $region = block_get_blocks_by_region('debate_block'); ?>
-
-     <div> 
-        <?php
-            print render($region);
-        ?>
-     </div>
-<?php endif;?>
+ 
 
 
  

@@ -88,9 +88,9 @@
       <div class="row">
       <div class="col-md-4">
         <div class="debate-sides">
-          <h2 class="debate-summary">
+          <h3 class="debate-summary">
               <?php print render($content['field_debate_summary']); ?>         
-          </h2>
+          </h3>
              <?php print render($content['field_positive']); ?> 
              <?php print render($content['field_negative']); ?>
         </div>    

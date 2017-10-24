@@ -130,3 +130,6 @@ span.username {
 h3.debate-title {
      
 }
+h3.debate-summary {
+    margin-top: 0;
+}

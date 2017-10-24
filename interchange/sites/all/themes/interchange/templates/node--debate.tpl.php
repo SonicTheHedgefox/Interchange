@@ -93,6 +93,7 @@
         <div class="debate-sides">
             <div class="col-md-5">
               <div class="debate-side-p">
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
                 <?php print render($content['field_positive']); ?>                
               </div>
             </div>
@@ -102,6 +103,7 @@
             </div>             
             <div class="col-md-5">
               <div class="debate-side-n">
+                <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
                 <?php print render($content['field_negative']); ?>                
               </div>  
             </div>               

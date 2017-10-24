@@ -81,7 +81,7 @@
 ?>
 <div class="debate-header container">
   <div class="page-header">
-    <h3><?php print $title; ?> <small>Subtext for header</small></h3>
+    <h3 class="debate-title"><?php print $title; ?> </h3>
   </div>
     <?php
     // Hide comments, tags, and links now so that we can render them later.

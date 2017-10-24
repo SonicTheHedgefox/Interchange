@@ -131,7 +131,7 @@ span.username {
 
 }
 h2.debate-title {
-   color: #46c8c8;  
+   font-weight: 600; 
 }
 h3.debate-summary {
     margin-top: 0;

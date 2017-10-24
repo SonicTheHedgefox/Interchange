@@ -126,7 +126,7 @@
 	</div>
 </nav>
 
-<?php if (!empty($page['inner_top_banner_slideshow']) || !empty($page['inner_top_banner_list']) ): ?> 	
+ 
 <div class="topbanner debatepage">
 
 
@@ -184,7 +184,7 @@
 
 
 </div>
-<?php endif; ?>
+ 
  
 <div class="main container">
  	<div class="row">

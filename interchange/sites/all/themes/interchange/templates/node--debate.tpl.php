@@ -86,7 +86,6 @@
   <div class="debate-header container">
       <h3 class="debate-title">
         <?php print $title; ?> 
-        <?php print render($content['field_debate_summary']); ?>
       </h3>
       <div class="debate-content">
        <?php print render($content['field_debate_content']); ?> 

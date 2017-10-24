@@ -79,9 +79,10 @@
  * @ingroup templates
  */
 ?>
- 
-<h3 class="node-title"><?php print $title; ?></h3>
-
+  
+<div class="page-header">
+  <h1><?php print $title; ?> <small>Subtext for header</small></h1>
+</div>
 <div class="container">
   
   <div class="row">

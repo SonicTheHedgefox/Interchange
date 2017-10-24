@@ -79,7 +79,7 @@
  * @ingroup templates
  */
 ?>
-<article id="node-<?php print $node->nid; ?>" class="whiteblock <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+ 
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
 
     <div class="node-header">
@@ -112,8 +112,7 @@
   <footer>
   </footer>
   <?php endif; ?>
-  
-</article>
+ 
   <?php if (!empty($content['comments'])): ?>
   <div class="whiteblock">
     <?php print render($content['comments']); ?>

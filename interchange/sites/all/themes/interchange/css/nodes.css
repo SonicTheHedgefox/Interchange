@@ -74,3 +74,13 @@ span.username {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
+.debate-header.container {
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid #46c8c8;
+    border-left-width: 5px;
+}
+h3.debate-title{
+	text-align: center;
+}

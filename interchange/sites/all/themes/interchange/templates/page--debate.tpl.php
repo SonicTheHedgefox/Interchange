@@ -140,11 +140,6 @@
  
 <div class="main container">
  	<div class="row">
-		<?php if (!empty($breadcrumb)): ?>
-			<div class="breadcrumb-box">
-				<?php	print $breadcrumb; ?>
-			<?php endif;?> 
-		</div>
 	    <div class="main-content">
 	    <section<?php print $content_column_class; ?>>
 	          <?php if (!empty($tabs)): ?>

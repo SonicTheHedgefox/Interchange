@@ -131,8 +131,8 @@
 		<?php if (!empty($breadcrumb)): ?>
 			<div class="breadcrumb-box">
 				<?php	print $breadcrumb; ?>
-			<?php endif;?> 
-		</div>
+			</div>
+		<?php endif;?> 
  		  
  	<?php if (!empty($page['inner_top_banner_slideshow']) || !empty($page['inner_top_banner_list']) ): ?> 	
 	 	<div class="topbanner innerpage">

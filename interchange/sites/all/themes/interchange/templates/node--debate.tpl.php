@@ -95,10 +95,10 @@
               <div class="debate-side-p">
                 <?php print render($content['field_positive']); ?>                
               </div>
-               <div class="col-md-2">
-                 <h2><i class="fa fa-exchange" aria-hidden="true"></i></h2>
-               </div> 
             </div>
+            <div class="col-md-2">
+                 <h2><i class="fa fa-exchange" aria-hidden="true"></i></h2>
+            </div>             
             <div class="col-md-5">
               <div class="debate-side-n">
                 <?php print render($content['field_negative']); ?>                

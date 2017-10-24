@@ -88,7 +88,7 @@
         <?php print render($content['field_debate_content']); ?>        
       </div>
       <div class="col-md-4">
-        <div class="page-header">
+        <div class="debate-sides">
           <h2 class="debate-summary">
               <?php print render($content['field_debate_summary']); ?>         
           </h2>

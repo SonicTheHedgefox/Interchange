@@ -85,13 +85,7 @@
       <div class="row">
       <h3 class="debate-title"><?php print $title; ?> </h3>
       <div class="col-md-8">
-        <?php
-        // Hide comments, tags, and links now so that we can render them later.
-        hide($content['comments']);
-        hide($content['links']);
-        hide($content['field_tags']);
-        print render($content);
-      ?>
+        <?php print render($content['field_debate_content']); ?>        
       </div>
       <div class="col-md-4">
       <div class="page-header">

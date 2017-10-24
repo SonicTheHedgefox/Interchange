@@ -76,7 +76,6 @@
 <!-- <div class="top_color_bar">
 	<div class="color_bar"></div>
 </div> -->
-
 <nav class="navheader innerpage">
 	<div class="header_container innerpage">
 		<div class="navbar-header">
@@ -126,26 +125,21 @@
 		<?php endif; ?>	
 	</div>
 </nav>
+
+<?php if (!empty($page['inner_top_banner_slideshow']) || !empty($page['inner_top_banner_list']) ): ?> 	
+<div class="topbanner debatepage">
+	<div class="col-md-6">
+		 <?php print render($page['inner_top_banner_slideshow']); ?>
+	</div>	 
+	<div class="col-md-6"> 
+	<?php print render($page['inner_top_banner_list']); ?>	
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<?php endif; ?>
  
 <div class="main container">
  	<div class="row">
-		<?php if (!empty($breadcrumb)): ?>
-			<div class="breadcrumb-box">
-				<?php	print $breadcrumb; ?>
-			</div>
-		<?php endif;?> 
- 		  
- 	<?php if (!empty($page['inner_top_banner_slideshow']) || !empty($page['inner_top_banner_list']) ): ?> 	
-	 	<div class="topbanner innerpage">
-	 		<div class="col-md-6">
-	 			 <?php print render($page['inner_top_banner_slideshow']); ?>
-	 		</div>	 
-	 		<div class="col-md-6"> 
-				<?php print render($page['inner_top_banner_list']); ?>	
-	 		</div>
-	 		<div style="clear:both;"></div>
-	 	</div>
-	 	<?php endif; ?>
 	    <div class="main-content">
 	    <section<?php print $content_column_class; ?>>
 	          <?php if (!empty($tabs)): ?>

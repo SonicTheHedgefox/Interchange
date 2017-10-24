@@ -84,6 +84,7 @@ function interchange_process_page(&$variables) {
     }
  
 }
+?>
 <nav class="navheader innerpage">
 	<div class="header_container innerpage">
 		<div class="navbar-header">

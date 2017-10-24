@@ -90,13 +90,15 @@ span.username {
 
 .debate-header {
     position: relative;
-    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, .7));
-    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .7));
-    -webkit-transition: background-image 1s cubic-bezier(.25, .46, .45, .94);
-    transition: background-image 1s cubic-bezier(.25, .46, .45, .94);
     color: #fff;
     overflow: hidden;
-    min-height: 280px;
+    min-height: 380px;
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg fill='%231b0707' xmlns='http://www.w…32'%3E%3Cpath d='M0 0h279.988l-4.897 32h-275.090z'%3E%3C/path%3E%3C/svg%3E);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    opacity: .8;    
 }
 
 .debate-header::after {

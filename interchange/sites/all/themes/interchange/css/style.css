@@ -349,7 +349,13 @@ ul {
     background-color: #00a185;
     border-color: #46c8c8;
 }
- 
+h2.block-title {
+    font-size: 1.25em;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
 
 .view-category-list a {
     border: 1px solid #6f7678;

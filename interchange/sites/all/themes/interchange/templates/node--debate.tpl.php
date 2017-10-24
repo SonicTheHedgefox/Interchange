@@ -81,11 +81,30 @@
 ?>
  
 <h3 class="node-title"><?php print $title; ?></h3>
-<?php $region = block_get_blocks_by_region('debate_block'); ?>
-<?php if (!empty($region)): ?>
-     <aside class="col-xs-0 col-sm-12" role="banner"> 
-        <?php
-            print render($region);
-        ?>
-     </aside>
-<?php endif;?>
+
+<div class="container">
+  
+  <div class="row">
+    
+    <?php $region = block_get_blocks_by_region('debate_block_positive'); ?>
+    <?php if (!empty($region)): ?>
+         <aside class="col-xs-0 col-sm-6" role="banner"> 
+            <?php
+                print render($region);
+            ?>
+         </aside>
+    <?php endif;?>
+
+    <?php $region = block_get_blocks_by_region('debate_block_negative'); ?>
+    <?php if (!empty($region)): ?>
+         <aside class="col-xs-0 col-sm-6" role="banner"> 
+            <?php
+                print render($region);
+            ?>
+         </aside>
+    <?php endif;?>
+
+  </div>
+
+
+</div>

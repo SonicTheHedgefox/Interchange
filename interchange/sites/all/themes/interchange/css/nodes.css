@@ -125,12 +125,13 @@ span.username {
     min-height: 380px;
     opacity: .8;
     padding: 20px 0;
+    text-align: center;
 }
 .debate-content{
 
 }
-h3.debate-title {
-     
+h2.debate-title {
+   color: #46c8c8;  
 }
 h3.debate-summary {
     margin-top: 0;

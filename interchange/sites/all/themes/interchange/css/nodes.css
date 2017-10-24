@@ -81,6 +81,23 @@ span.username {
     border: 1px solid #46c8c8;
     border-left-width: 5px;
 }*/
+.debate-header{
+	position: relative;
+	z-index: 1000;
+	background-image: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.7));
+    background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.7));
+    -webkit-transition: background-image 1s cubic-bezier(.25,.46,.45,.94);
+    transition: background-image 1s cubic-bezier(.25,.46,.45,.94);
+}
+.debate-bg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.debate-bg img{
+	width: 100%;
+	height: auto;
+}
 h3.debate-title{
 	text-align: center;
 }

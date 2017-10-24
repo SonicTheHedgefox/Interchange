@@ -88,13 +88,13 @@
         <?php print render($content['field_debate_content']); ?>        
       </div>
       <div class="col-md-4">
-      <div class="page-header">
-        <h2 class="debate-summary">
-            <?php print render($content['field_debate_summary']); ?>         
-        </h2>
-           <?php print render($content['field_positive']); ?> 
-           <?php print render($content['field_negative']); ?>
-      </div>    
+        <div class="page-header">
+          <h2 class="debate-summary">
+              <?php print render($content['field_debate_summary']); ?>         
+          </h2>
+             <?php print render($content['field_positive']); ?> 
+             <?php print render($content['field_negative']); ?>
+        </div>    
       </div>       
       </div>
   </div>

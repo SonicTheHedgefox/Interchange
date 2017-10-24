@@ -91,7 +91,6 @@ span.username {
 
 .debate-page-header {
     position: relative;
-    padding:20px 0;
 }
 .debate-bg::after {
     position: absolute;
@@ -123,7 +122,8 @@ span.username {
     color: #fff;
     overflow: hidden;
     min-height: 380px;
-    opacity: .8;    
+    opacity: .8;
+    padding: 20px 0;
 }
 .debate-content{
 

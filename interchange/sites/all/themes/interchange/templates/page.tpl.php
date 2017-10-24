@@ -147,10 +147,6 @@
 	 	<?php endif; ?>
 	    <div class="main-content">
 	    <section<?php print $content_column_class; ?>>
-	      <?php if (!empty($tabs)): ?>
-	        <?php print render($tabs); ?>
-	      <?php endif; ?>
-	 
 	          <?php if (!empty($tabs)): ?>
 	          <?php print render($tabs); ?>
 	          <?php endif; ?>

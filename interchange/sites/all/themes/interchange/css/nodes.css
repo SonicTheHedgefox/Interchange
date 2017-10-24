@@ -91,8 +91,9 @@ span.username {
 
 .debate-page-header {
     position: relative;
+    background: rgba(0,0,0,.5);
 }
-.debate-bg::after {
+.debate-page-header::after {
     position: absolute;
     bottom: 0;
     left: 0;

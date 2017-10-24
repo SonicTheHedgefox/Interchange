@@ -93,17 +93,16 @@
         <div class="debate-sides">
             <div class="col-md-5">
               <div class="debate-side-p">
-                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-up" aria-hidden="true" style="display: inline;"></i>
                 <?php print render($content['field_positive']); ?>                
               </div>
             </div>
             <div class="col-md-2">
-                  <i class="fa fa-hand-o-left" aria-hidden="true"></i>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>                  
+                
             </div>             
             <div class="col-md-5">
               <div class="debate-side-n">
-                <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-o-down" aria-hidden="true" style="display: inline;"></i>
                 <?php print render($content['field_negative']); ?>                
               </div>  
             </div>               

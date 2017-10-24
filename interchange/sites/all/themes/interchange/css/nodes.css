@@ -47,9 +47,11 @@ h3.node-header {
     padding-right: 5px;
     color: #46c8c8;
 }
-.field-name-field-tags .field-item a:hover{
-	color: #00a185;
+
+.field-name-field-tags .field-item a:hover {
+    color: #00a185;
 }
+
 .node-i {
     padding-right: 10px;
 }
@@ -61,19 +63,23 @@ span.username {
 .node-i i {
     padding-right: 5px;
 }
-.field-name-field-body a{
-	color: #46c8c8;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;	
-}.field-name-field-body a:hover{
-	color: #00a185;
+
+.field-name-field-body a {
+    color: #46c8c8;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
+.field-name-field-body a:hover {
+    color: #00a185;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
 
 /*.debate-header .container{
     padding: 20px;
@@ -81,25 +87,44 @@ span.username {
     border: 1px solid #46c8c8;
     border-left-width: 5px;
 }*/
-.debate-header{
-	position: relative;
-	background-image: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.7));
-    background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.7));
-    -webkit-transition: background-image 1s cubic-bezier(.25,.46,.45,.94);
-    transition: background-image 1s cubic-bezier(.25,.46,.45,.94);
+
+.debate-header {
+    position: relative;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, .7));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .7));
+    -webkit-transition: background-image 1s cubic-bezier(.25, .46, .45, .94);
+    transition: background-image 1s cubic-bezier(.25, .46, .45, .94);
     color: #fff;
+    overflow: hidden;
+    min-height: 280px;
 }
-.debate-bg{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	z-index: -1000;
+
+.debate-header::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 35px 0 0 41px;
+    content: "";
 }
-.debate-bg img{
-	width: 100%;
-	height: auto;
+
+.debate-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1000;
 }
-h3.debate-title{
-	text-align: center;
+
+.debate-bg img {
+    width: 100%;
+    height: auto;
+}
+
+h3.debate-title {
+    text-align: center;
 }

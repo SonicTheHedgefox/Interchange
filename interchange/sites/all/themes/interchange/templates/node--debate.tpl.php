@@ -79,9 +79,11 @@
  * @ingroup templates
  */
 ?>
-  
-<div class="page-header">
-  <h3><?php print $title; ?> <small>Subtext for header</small></h3>
+<div class="debate-header">
+  <div class="page-header">
+    <h3><?php print $title; ?> <small>Subtext for header</small></h3>
+  </div>
+  <?php print render($content);?>
 </div>
 <div class="container">
   

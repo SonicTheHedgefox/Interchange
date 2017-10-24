@@ -112,11 +112,11 @@
 
 <?php $region = block_get_blocks_by_region('debate_block'); ?>
 <?php if (!empty($debate_block)): ?>
-     <aside class="col-xs-0 col-sm-12" role="banner"> 
+     <div class="col-xs-0 col-sm-12" role="banner"> 
         <?php
             print render($debate_block);
         ?>
-     </aside>
+     </div>
 <?php endif;?>
 
 

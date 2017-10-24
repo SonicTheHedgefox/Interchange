@@ -97,7 +97,8 @@
               </div>
             </div>
             <div class="col-md-2">
-                  <i class="fa fa-exchange" aria-hidden="true"></i> 
+                  <i class="fa fa-hand-o-left" aria-hidden="true"></i>
+                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>                  
             </div>             
             <div class="col-md-5">
               <div class="debate-side-n">

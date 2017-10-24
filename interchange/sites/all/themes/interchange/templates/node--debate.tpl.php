@@ -79,12 +79,11 @@
  * @ingroup templates
  */
 ?>
-<div class="debate-header"
+<div class="debate-header">
 <div class="debate-bg"><?php print render($content['field_debate_bg']); ?></div>
   <div class=" container">
       <div class="row">
       <h3 class="debate-title"><?php print $title; ?> </h3>
- 
       <div class="col-md-8">
         <?php
         // Hide comments, tags, and links now so that we can render them later.

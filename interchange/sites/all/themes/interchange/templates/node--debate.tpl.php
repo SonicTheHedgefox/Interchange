@@ -83,13 +83,10 @@
   <div class="page-header">
     <h3 class="debate-title"><?php print $title; ?> </h3>
     <h2 class="debate-summary">
-        <?php print render($content['field_debate_summary']); ?>
-        
-      <small><?php print render($content['field_positive']); ?></small>
-      <small><?php print render($content['field_negative']); ?></small>
-
+        <?php print render($content['field_debate_summary']); ?>         
     </h2>
-
+       <?php print render($content['field_positive']); ?> 
+       <?php print render($content['field_negative']); ?>
   </div>
     <?php
     // Hide comments, tags, and links now so that we can render them later.

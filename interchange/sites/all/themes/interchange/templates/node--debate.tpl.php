@@ -92,9 +92,13 @@
        <?php print render($content['field_debate_content']); ?> 
       </div>
         <div class="debate-sides">
-             <?php print render($content['field_positive']); ?> 
-             <?php print render($content['field_negative']); ?>
-        </div>       
+          <div class="row">
+            <div class="co-md-6"><?php print render($content['field_positive']); ?> </div>
+            <div class="co-md-6"><?php print render($content['field_negative']); ?></div>
+          </div>
+             
+             
+        </div>         
   </div>
 </div>
 

@@ -84,21 +84,17 @@
 <div class="debate-bg"><?php print render($content['field_debate_bg']); ?></div>
 
   <div class="debate-header container">
-      <h3 class="debate-title"><?php print $title; ?> </h3>
-      <div class="row">
-      <div class="col-md-4">
+      <h3 class="debate-title">
+        <?php print $title; ?> 
+        <?php print render($content['field_debate_summary']); ?>
+      </h3>
+      <div class="debate-content">
+       <?php print render($content['field_debate_content']); ?> 
+      </div>
         <div class="debate-sides">
-          <h3 class="debate-summary">
-              <?php print render($content['field_debate_summary']); ?>         
-          </h3>
              <?php print render($content['field_positive']); ?> 
              <?php print render($content['field_negative']); ?>
-        </div>    
-      </div>
-      <div class="col-md-8">
-        <?php print render($content['field_debate_content']); ?>        
-      </div>             
-      </div>
+        </div>       
   </div>
 </div>
 

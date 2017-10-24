@@ -84,6 +84,10 @@
     <h3 class="debate-title"><?php print $title; ?> </h3>
     <h2 class="debate-summary">
         <?php print render($content['field_debate_summary']); ?>
+        
+      <small><?php print render($content['field_positive']); ?></small>
+      <small><?php print render($content['field_negative']); ?></small>
+
     </h2>
 
   </div>

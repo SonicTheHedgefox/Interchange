@@ -83,8 +83,6 @@ span.username {
 }*/
 .debate-header{
 	position: relative;
-	margin-top: -20px;	
-	z-index: 1000;
 	background-image: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.7));
     background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.7));
     -webkit-transition: background-image 1s cubic-bezier(.25,.46,.45,.94);
@@ -95,6 +93,8 @@ span.username {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	width: 100%;
+	z-index: -1000;
 }
 .debate-bg img{
 	width: 100%;

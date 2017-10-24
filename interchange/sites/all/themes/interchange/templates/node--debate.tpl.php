@@ -92,13 +92,13 @@
       </div>
         <div class="debate-sides">
             <div class="col-md-6">
-              <div class="debate-side ">
+              <div class="debate-side-p">
                 <?php print render($content['field_positive']); ?>                
               </div>
                
             </div>
             <div class="col-md-6">
-              <div class="debate-side">
+              <div class="debate-side-n">
                 <?php print render($content['field_negative']); ?>                
               </div>  
             </div>               

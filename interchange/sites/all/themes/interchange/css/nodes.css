@@ -127,11 +127,10 @@ span.username {
     padding: 20px 0;
     text-align: center;
 }
-.debate-content{
-
-}
+.debate-content{font-size: 18px;}
 h2.debate-title {
-   font-weight: 600; 
+   font-weight: 600;
+   margin-bottom: 30px;
 }
 h3.debate-summary {
     margin-top: 0;
@@ -140,9 +139,13 @@ h3.debate-summary {
 	width: 100%;
 	margin:20px 0;
 }
-.debate-sides .debate-side{
-	width: 200px;
-	margin: 0px auto;
-	font-size: 18px;
+.debate-sides .debate-side-n{
+	font-size: 1.5em;
 	font-weight: 600;
+	float: left;
+}
+.debate-sides .debate-side-p{
+	font-size: 1.5em;
+	font-weight: 600;
+	float: right;
 }

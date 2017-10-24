@@ -97,7 +97,7 @@
               </div>
             </div>
             <div class="col-md-2">
-                 <h2><i class="fa fa-exchange" aria-hidden="true"></i></h2>
+                  <i class="fa fa-exchange" aria-hidden="true"></i> 
             </div>             
             <div class="col-md-5">
               <div class="debate-side-n">

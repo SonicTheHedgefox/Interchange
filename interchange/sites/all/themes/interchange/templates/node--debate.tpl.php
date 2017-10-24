@@ -112,7 +112,7 @@
 
 <?php $region = block_get_blocks_by_region('debate_block'); ?>
 <?php if (!empty($debate_block)): ?>
-     <div class="col-xs-0 col-sm-12" role="banner"> 
+     <div> 
         <?php
             print render($debate_block);
         ?>

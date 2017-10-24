@@ -125,9 +125,22 @@ span.username {
     min-height: 380px;
     opacity: .8;    
 }
+.debate-content{
+
+}
 h3.debate-title {
      
 }
 h3.debate-summary {
     margin-top: 0;
+}
+.debate-sides{
+	position:absolute;
+	bottom: 10px;
+	left: 0;
+}
+.debate-sides .col-md-6{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
 }

@@ -93,11 +93,9 @@
       </div>
         <div class="debate-sides">
           <div class="row">
-            <div class="co-md-6"><?php print render($content['field_positive']); ?> </div>
-            <div class="co-md-6"><?php print render($content['field_negative']); ?></div>
-          </div>
-             
-             
+            <div class="col-md-6"><?php print render($content['field_positive']); ?> </div>
+            <div class="col-md-6"><?php print render($content['field_negative']); ?></div>
+          </div>       
         </div>         
   </div>
 </div>

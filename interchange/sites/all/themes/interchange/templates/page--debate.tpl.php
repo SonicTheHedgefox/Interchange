@@ -130,57 +130,6 @@
 <div class="topbanner debatepage">
 
 
-<div style="background-color: #2f363d;">
-  <!--// SPOTLIGHTS //-->
-  <div class="container-xl d-md-flex clearfix p-md-2" style="max-width: 1440px;">
-    <article class="col-md-4 col-lg-3 m-3 m-md-2 anim-fade-in">
-      <a href="https://octoverse.github.com/" class="hover-grow no-underline d-flex flex-column flex-justify-end position-relative height-full overflow-hidden rounded-1 box-shadow-medium" style="background-color: #1a1f21;">
-        <div class="position-absolute top-0 right-0 bottom-0 left-0 overflow-hidden text-center">
-          <img src="https://assets-cdn.github.com/images/modules/explore/spotlight/octoverse-bg.png" alt="Octoverse" class="width-fit mx-auto mt-2">
-        </div>
-        <div class="Spotlight position-relative">
-          <div class="Spotlight-text position-relative p-4 p-lg-5">
-            <div class="h6 text-white text-uppercase">Report</div>
-            <h1 class="h2 text-white lh-condensed mb-1">The State of the Octoverse</h1>
-            <p class="f5 text-white mb-0">In 2017, our community grew to 24 million developers. Let’s celebrate  the projects, people, and teams of 2017.</p>
-          </div>
-          <div class="Spotlight-blur position-absolute top-0 right-0 bottom-0 left-0 rounded-1" style="background-color: #1a1f21;"></div>
-        </div>
-      </a>
-    </article>
-
-    <article class="col-md-4 col-lg-6 m-3 m-md-2 anim-fade-in">
-      <a href="/developer-stories/alicia" class="js-video-hover hover-grow no-underline d-flex flex-column flex-justify-end position-relative height-full width-full overflow-hidden rounded-1 box-shadow-medium" style="background-color: #1a1f21;">
-        <div class="position-absolute top-0 right-0 bottom-0 left-0 overflow-hidden text-center">
-          <video src="https://assets-cdn.github.com/images/modules/explore/spotlight/devstories-aliciacarr-bg.mp4" preload="none" muted="true" playsinline="true" poster="https://assets-cdn.github.com/images/modules/explore/spotlight/devstories-aliciacarr-bg.png" class="js-video-element position-absolute rounded-1" style="left: 50%; width: 700px; margin-left: -350px;"></video>
-        <div id="vidown_float_panel_div" style="display: none; left: 1309.98px; top: 50px;"><a id="vidown_float_panel_download" title="用【维棠】下载视频">维棠下载</a><span id="vidown_float_panel_sep">|</span><input type="button" value=" " id="vidown_float_panel_close" title="关闭"></div></div>
-        <div class="Spotlight-blur position-relative text-left text-md-center text-white p-4 p-lg-5" style="background-color: rgba(0,0,0,.6);">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="h1 lh-condensed mb-1">Alicia Carr is a mentor, grandma, and developer.</h1>
-            <p class="f3 lh-condensed mb-0">Meet Alicia <svg aria-hidden="true" class="octicon octicon-chevron-right ml-1 v-align-middle" height="16" version="1.1" viewBox="0 0 8 16" width="8"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"></path></svg></p>
-          </div>
-        </div>
-      </a>
-    </article>
-
-    <article class="col-md-4 col-lg-3 m-3 m-md-2 anim-fade-in">
-      <a href="/collections/machine-learning" class="hover-grow no-underline d-flex flex-column flex-justify-end position-relative height-full overflow-hidden rounded-1 box-shadow-medium" style="background-color: #c4d3e4;">
-        <div class="position-absolute top-0 right-0 bottom-0 left-0 overflow-hidden text-center">
-          <img src="https://assets-cdn.github.com/images/modules/explore/spotlight/machinelearning-bg.png" alt="Getting started with machine learning" class="width-fit mx-auto mt-2">
-        </div>
-        <div class="Spotlight position-relative">
-          <div class="Spotlight-text position-relative p-4 p-lg-5">
-            <div class="h6 text-gray-dark text-uppercase">Collection</div>
-            <h1 class="h2 text-gray-dark lh-condensed mb-1">Getting started with machine learning</h1>
-            <p class="f5 text-gray-dark mb-0">Algorithms that make predictions from data have a new audience and a new set of possibilities.</p>
-          </div>
-          <div class="Spotlight-blur position-absolute top-0 right-0 bottom-0 left-0 rounded-1" style="background-color: #c4d3e4;"></div>
-        </div>
-      </a>
-    </article>
-  </div>
-</div>
-
 
 
 </div>

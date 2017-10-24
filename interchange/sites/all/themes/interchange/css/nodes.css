@@ -135,9 +135,6 @@ h3.debate-summary {
     margin-top: 0;
 }
 .debate-sides{
-	position:absolute;
-	bottom: 10px;
-	left: 0;
 	width: 100%
 }
 .debate-sides .col-md-6{

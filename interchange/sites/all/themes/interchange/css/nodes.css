@@ -93,7 +93,7 @@ span.username {
     position: relative;
     padding:20px 0;
 }
-.debate-page-header::after {
+.debate-bg::after {
     position: absolute;
     bottom: 0;
     left: 0;

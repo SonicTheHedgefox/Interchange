@@ -81,19 +81,20 @@
 ?>
 <article id="node-<?php print $node->nid; ?>" class="whiteblock <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
-
-    <div class="node-header">
-    <h3 class="node-title"><?php print $title; ?></h3>
-    <?php print $user_picture; ?>     
-     <div class="node-info">
-        <span class="node-i username"><?php print render($name);?></span> 
-        <span class="node-i"><i class="fa fa-clock-o" aria-hidden="true"></i><?php print format_date($created ,'custom','Y-n-j'); ?></span>
-        <span class="node-i"><i class="fa fa-eye" aria-hidden="true"></i>   
-          <?php $node_stats = statistics_get($nid);$node_reads = $node_stats['totalcount'];print $node_reads;?></span>
-     </div>
-    <div class="tag-icon"><i class="fa fa-tag" aria-hidden="true"></i></div>
-    <?php print render($content['field_tags']); ?>
-    </div> 
+    <div class="bs-callout bs-callout-danger" id="callout-navbar-js">
+      <div class="node-header">
+      <h3 class="node-title"><?php print $title; ?></h3>
+      <?php print $user_picture; ?>     
+       <div class="node-info">
+          <span class="node-i username"><?php print render($name);?></span> 
+          <span class="node-i"><i class="fa fa-clock-o" aria-hidden="true"></i><?php print format_date($created ,'custom','Y-n-j'); ?></span>
+          <span class="node-i"><i class="fa fa-eye" aria-hidden="true"></i>   
+            <?php $node_stats = statistics_get($nid);$node_reads = $node_stats['totalcount'];print $node_reads;?></span>
+       </div>
+      <div class="tag-icon"><i class="fa fa-tag" aria-hidden="true"></i></div>
+      <?php print render($content['field_tags']); ?>
+      </div> 
+    </div>
     <?php print render($title_prefix); ?>
     <?php if (!$page && !empty($title)): ?>
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>

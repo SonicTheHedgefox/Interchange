@@ -104,14 +104,6 @@
     hide($content['field_tags']);
     print render($content);
   ?>
-  <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
-  <footer>
-  </footer>
-  <?php endif; ?>
-
- 
-
-
  
   <?php if (!empty($content['comments'])): ?>
   <div class="whiteblock">

@@ -112,6 +112,8 @@ span.username {
     left: 0px;
     width: 100%;
     z-index: -1000;
+    overflow: hidden;
+    max-height: 280px;
 }
 
 .debate-bg img {
@@ -122,7 +124,7 @@ span.username {
     position: relative;
     color: #fff;
     overflow: hidden;
-    min-height: 380px;
+    min-height: 280px;
     opacity: .8;
     padding: 20px 0;
     text-align: center;

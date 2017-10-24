@@ -80,6 +80,8 @@
  */
 ?>
 <div class="debate-header container">
+  <div class="row">
+  <div class="col-md-6">
   <div class="page-header">
     <h3 class="debate-title"><?php print $title; ?> </h3>
     <h2 class="debate-summary">
@@ -87,7 +89,9 @@
     </h2>
        <?php print render($content['field_positive']); ?> 
        <?php print render($content['field_negative']); ?>
-  </div>
+  </div>    
+  </div>  
+  <div class="col-md-6">
     <?php
     // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
@@ -95,6 +99,8 @@
     hide($content['field_tags']);
     print render($content);
   ?>
+  </div>
+</div>
 </div>
 <div class="container">
   

@@ -141,7 +141,14 @@
 <div class="main container">
  	<div class="row">
 	    <div class="main-content">
- 
+	    <section<?php print $content_column_class; ?>>
+	          <?php if (!empty($tabs)): ?>
+	          <?php print render($tabs); ?>
+	          <?php endif; ?>
+	          <?php print render($page['content_banner']); ?>
+	          <?php print render($page['content']); ?>
+	          
+	    </section>
 
 	    <?php if (!empty($page['sidebar_first'])): ?>
 	      <aside class="col-sm-3" role="complementary">

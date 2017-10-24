@@ -76,6 +76,14 @@
 <!-- <div class="top_color_bar">
 	<div class="color_bar"></div>
 </div> -->
+<?php
+function interchange_process_page(&$variables) {     
+   
+ if (isset($variables['node']->type)) {
+        $variables['theme_hook_suggestions'][]='page__'.$variables['node']->type;
+    }
+ 
+}
 <nav class="navheader innerpage">
 	<div class="header_container innerpage">
 		<div class="navbar-header">

@@ -213,8 +213,9 @@ h3.box-title, h4.box-title {
 .topbanner.debatepage {
 margin-top: -20px;
 }
-.debate-banner{
-    max-width: 1440px;
+.debate-page{
+    overflow: hidden;
+    width: 100%;
 }
 .topbanner-box {
     width: 100%;

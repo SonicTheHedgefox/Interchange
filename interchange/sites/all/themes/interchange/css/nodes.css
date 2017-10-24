@@ -83,12 +83,13 @@ span.username {
 }*/
 .debate-header{
 	position: relative;
-	margin-top: -20px;
+	margin-top: -20px;	
 	z-index: 1000;
 	background-image: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.7));
     background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.7));
     -webkit-transition: background-image 1s cubic-bezier(.25,.46,.45,.94);
     transition: background-image 1s cubic-bezier(.25,.46,.45,.94);
+    color: #fff;
 }
 .debate-bg{
 	position: absolute;

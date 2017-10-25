@@ -27,7 +27,7 @@
     position: absolute;
     bottom: 0;
     width: 75%;
-    padding-top: 20px;
+    padding-top: 18px;
     padding-left: 0;
     padding-right: 0;
     background: #fff;
@@ -71,19 +71,24 @@ h4.article-box-title a:hover {
 
 .article-box img {
     width: 100%;
+    height: auto;
 }
 
 .article-box-author a{
     color: #46c8c8;
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .article-box-author{
 }
 .article-box-time {
-    font-size: .9em;
+    font-size: .8em;
+    color: #717171;
 }
-
+.article-box-time::before{
+        padding: 0 5px 0 3px;
+    content: "/";
+}
 .view-blog h2 {
     display: none;
 }

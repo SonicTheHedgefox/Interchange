@@ -1,7 +1,39 @@
-.view-blog h2{
-	display: none;
+.article-box {
+    position: relative;
+   	overflow: hidden;    
 }
-.view-blog .views-row{
-	padding-bottom: 30px;
-	border-bottom: 1px dashed #46c8c8;
+
+.article-info {
+    width: 80%
+        display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+}
+.article-tag{
+    position: relative;
+    left: 0;
+    padding: 0 0 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 12px;	
+}
+h4.article-box-title{
+	font-size: 1.4em;
+}
+.article-box img {
+    width: 100%;
+}
+
+
+
+
+.view-blog h2 {
+    display: none;
+}
+
+.view-blog .views-row {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #46c8c8;
 }

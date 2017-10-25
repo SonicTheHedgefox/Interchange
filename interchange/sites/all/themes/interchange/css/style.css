@@ -283,15 +283,6 @@ h3.box-title, h4.box-title {
     overflow: hidden;
 }
 
-.article-box {
-    overflow: hidden;
-    float: left;
-    width: 100%;
-}
-
-.article-box img {
-    width: 100%;
-}
 
 .masonry-item {
     padding: 0;

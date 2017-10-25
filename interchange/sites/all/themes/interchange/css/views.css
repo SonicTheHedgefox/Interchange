@@ -34,14 +34,16 @@ h4.article-box-title {
 }
 
 h4.article-box-title a:hover {
-    color: #46c8c8;
+    color: #46c8c8;	
 }
 
 .article-box img {
     width: 100%;
 }
 
-.article-box-author {}
+.article-box-author a{
+    color: #46c8c8;	
+}
 
 .article-box-time {}
 

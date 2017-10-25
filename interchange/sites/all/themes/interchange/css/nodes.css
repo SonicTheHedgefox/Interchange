@@ -89,11 +89,11 @@ span.username {
 }*/
 
 
-.debate-page-header {
+.dt-page-header {
     position: relative;
     background: rgba(0,0,0,.5);
 }
-.debate-page-header::after {
+.dt-page-header::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -106,7 +106,7 @@ span.username {
     content: "";
 }
 
-.debate-bg {
+.dt-bg {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -116,11 +116,11 @@ span.username {
     max-height: 280px;
 }
 
-.debate-bg img {
+.dt-bg img {
     width: 100%;
     height: auto;
 }
-.debate-header {
+.dt-header {
     position: relative;
     color: #fff;
     overflow: hidden;
@@ -129,14 +129,12 @@ span.username {
     padding: 20px 0;
     text-align: center;
 }
-.debate-content{font-size: 18px;}
-h2.debate-title {
+h2.dt-title {
    font-weight: 600;
    margin-bottom: 30px;
 }
-h3.debate-summary {
-    margin-top: 0;
-}
+.dt-content{font-size: 18px;}
+
 .debate-sides{
 	width: 100%;
 	margin:20px 0;

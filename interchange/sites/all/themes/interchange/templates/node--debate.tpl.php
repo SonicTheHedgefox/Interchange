@@ -79,15 +79,15 @@
  * @ingroup templates
  */
 ?>
-<div class="debate-page-header">
+<div class="dt-page-header">
 
-<div class="debate-bg"><?php print render($content['field_debate_bg']); ?></div>
+<div class="dt-bg"><?php print render($content['field_debate_bg']); ?></div>
 
-  <div class="debate-header container">
-      <h2 class="debate-title">
+  <div class="dt-header container">
+      <h2 class="dt-title">
         <?php print $title; ?> 
       </h2>
-      <div class="debate-content">
+      <div class="dt-content">
        <?php print render($content['field_debate_content']); ?> 
       </div>
         <div class="debate-sides">

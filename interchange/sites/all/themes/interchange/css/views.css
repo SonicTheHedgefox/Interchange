@@ -7,15 +7,17 @@
     position: relative;
     top: 0;
     left: 0;
+}
+.article-thumb img{
 -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
     transition: -webkit-transform .4s cubic-bezier(.25,.46,.45,.94);
     transition: transform .4s cubic-bezier(.25,.46,.45,.94);
     transition: transform .4s cubic-bezier(.25,.46,.45,.94),-webkit-transform .4s cubic-bezier(.25,.46,.45,.94);
-    
+
 }
-.article-thumb:hover {
+.article-thumb img:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);

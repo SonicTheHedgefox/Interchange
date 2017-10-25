@@ -1,4 +1,4 @@
-<div class="article-box box-b col-md-4">
+<div class="article-box box-b col-md-6">
 
   <div class="article-thumb">
 	<?php print $fields['field_thumb']->content ?>

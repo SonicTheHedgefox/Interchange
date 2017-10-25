@@ -56,7 +56,9 @@ position: absolute;
 .article-tag a{
     color: #46c8c8;
 }
-
+.article-tag a:hover {
+    color: #00a185;
+}
 h4.article-box-title {
     font-size: 1.5em;
     font-weight: 600;

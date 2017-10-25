@@ -10,7 +10,6 @@
       <?php print $fields['field_tags']->content ?>
   </span>
 		<?php print $fields['title']->content ?>
-    <i class="fa fa-user" aria-hidden="true"></i>
     <?php print $fields['name']->content ?>
     <?php print $fields['changed']->content ?>
   </div>

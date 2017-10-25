@@ -9,7 +9,7 @@
       <?php print $fields['field_tags']->content ?>
   </span>
 		<?php print $fields['title']->content ?>
-    <?php print $fields['name']->content ?>/
+    <?php print $fields['name']->content ?>
     <?php print $fields['changed']->content ?>
   </div>
 

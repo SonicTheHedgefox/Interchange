@@ -129,7 +129,7 @@
 	</div>
 </nav>
 
-<div class="node-page">
+<div class="dt-page">
 
 	      <?php print render($page['content']); ?>
 

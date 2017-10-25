@@ -61,7 +61,7 @@ position: absolute;
 h4.article-box-title {
     font-size: 1.5em;
     font-weight: 600;
-    padding: 10px 30px 20px 0px;
+    padding: 10px 30px 15px 0px;
     margin: 0;
 }
 
@@ -74,10 +74,15 @@ h4.article-box-title a:hover {
 }
 
 .article-box-author a{
-    color: #46c8c8;	
+    color: #46c8c8;
+    font-size: .9em;
 }
 
-.article-box-time {}
+.article-box-author{
+}
+.article-box-time {
+    font-size: .9em;
+}
 
 .view-blog h2 {
     display: none;

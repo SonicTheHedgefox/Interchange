@@ -129,7 +129,7 @@
 	</div>
 </nav>
 
-<div class="debate-page">
+<div class="node-page">
 
 	      <?php print render($page['content']); ?>
 

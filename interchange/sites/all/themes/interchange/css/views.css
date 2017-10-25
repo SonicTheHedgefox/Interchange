@@ -25,9 +25,12 @@ h4.article-box-title{
 .article-box img {
     width: 100%;
 }
+.article-box-author{
 
-
-
+}
+.article-box-time{
+	
+}
 
 .view-blog h2 {
     display: none;

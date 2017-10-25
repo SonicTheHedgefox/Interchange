@@ -1,19 +1,19 @@
 .article-box {
     position: relative;
-   	overflow: hidden;    
+    margin-bottom: 25px;
 }
 .article-thumb{
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 }
 .article-info {
+    position: absolute;
+    bottom: 0;
     width: 80%;
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
     padding-left: 0;
     padding-right: 0;
+    background: #fff;
 }
 .article-tag{
     position: relative;

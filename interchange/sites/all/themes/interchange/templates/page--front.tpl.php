@@ -144,21 +144,21 @@
 			<div class="inner"><a href="/latest">Latest »</a></div>
 		</div>
 	 	
-	 	<div class="main-content">
-				<div class="front-content-list col-md-9">
-					 
-						<?php 
-						$block = module_invoke('views', 'block_view', 'article_list-block');
-					    print render($block); 
-						?>	
-				</div>
+	    <div class="main-content">
+	    <section<?php print $content_column_class; ?>>
+	          <?php if (!empty($tabs)): ?>
+	          <?php print render($tabs); ?>
+	          <?php endif; ?>
+	          <?php print render($page['content']); ?>
+	          
+	    </section>
 
-				<div class="sidebar front col-md-3">
-	 
-		  			<?php print render($page['sidebar_first']); ?>
- 
-				</div>	
-	 	</div>
+	    <?php if (!empty($page['sidebar_first'])): ?>
+	      <aside class="col-sm-3" role="complementary">
+	        <?php print render($page['sidebar_first']); ?>
+	      </aside>  <!-- /#sidebar-second -->
+	    <?php endif; ?>
+	  </div>
  	</div>
 </div>
 

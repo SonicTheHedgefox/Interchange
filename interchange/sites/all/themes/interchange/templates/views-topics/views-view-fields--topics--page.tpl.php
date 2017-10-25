@@ -6,6 +6,7 @@
 
   <div class="article-info">
    <span class="article-tag">
+      <i class="fa fa-tag" aria-hidden="true"></i>
       <?php print $fields['field_tags']->content ?>
   </span>
 		<?php print $fields['title']->content ?>

@@ -132,10 +132,11 @@ span.username {
     text-align: center;
 }
 h3.dt-title {
-   font-weight: 600;
    margin-bottom: 30px;
 }
-.dt-content{margin-top: 20px;font-size: 1em;}
+.dt-content{
+	margin-top: 20px;font-size: 1em;
+}
 
 .debate-sides{
 	width: 100%;

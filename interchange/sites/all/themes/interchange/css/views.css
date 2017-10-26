@@ -1,4 +1,4 @@
-.sidebar-thumb img,.article-thumb img,.topbanner-thumb img{
+.sidebar-thumb img,.article-thumb img,.topbanner-thumb img,.blog-thumb img{
 -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -7,7 +7,7 @@
     transition: transform .4s cubic-bezier(.25,.46,.45,.94),-webkit-transform .4s cubic-bezier(.25,.46,.45,.94);
 
 }
-.sidebar-thumb img:hover,.article-thumb img:hover,.topbanner-thumb img:hover {
+.sidebar-thumb img:hover,.article-thumb img:hover,.topbanner-thumb img:hover,.blog-thumb img:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -134,6 +134,7 @@ h4.article-box-title a:hover {
 	position: relative;
 	width: 40%;
 	float: left;
+	overflow: hidden;
 }
 .blog-thumb::after{
     position: absolute;

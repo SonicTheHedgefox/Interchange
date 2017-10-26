@@ -63,7 +63,9 @@ span.username {
 .node-i i {
     padding-right: 5px;
 }
-
+.field-name-field-body{
+	line-height:1.6;
+}
 .field-name-field-body a {
     color: #46c8c8;
     -webkit-transition: all 0.3s ease;

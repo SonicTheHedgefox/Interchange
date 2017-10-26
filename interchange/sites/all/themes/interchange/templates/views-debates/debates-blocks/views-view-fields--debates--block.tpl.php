@@ -9,9 +9,14 @@
       <i class="fa fa-tag" aria-hidden="true"></i>
       <?php print $fields['field_tags']->content ?>
   </span>
-		<?php print $fields['title']->content ?>
-    <?php print $fields['name']->content ?>
-    <?php print $fields['changed']->content ?>
+  <h4 class="article-box-title"><?php print $fields['title']->content ?> </h4>
+		<span class="article-box-author">
+    <?php print $fields['name']->content ?> 
+    </span>
+    
+    <span class="article-box-time">
+      <?php print $fields['changed']->content ?>
+    </span>
   </div>
 
 </div>

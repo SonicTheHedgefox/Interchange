@@ -6,6 +6,10 @@
 
   <div class="blog-info">
   <h4 class="blog-box-title"><?php print $fields['title']->content ?> </h4>
+  <span class="blog-tag">
+      <i class="fa fa-tag" aria-hidden="true"></i>
+      <?php print $fields['field_tags']->content ?>
+  </span>
   <div class="blog-box-summary"> 
     <?php print $fields['field_summary']->content ?>
   </div>

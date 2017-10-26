@@ -166,7 +166,19 @@ h4.blog-box-title a{
 h4.blog-box-title a:hover {
     color: #46c8c8;	
 }
-
+.blog-tag {
+    position: relative;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 12px;
+}
+.blog-tag a{
+    color: #46c8c8;
+}
+.blog-tag a:hover {
+    color: #00a185;
+}
 .blog-box img {
     width: 100%;
     height: auto;

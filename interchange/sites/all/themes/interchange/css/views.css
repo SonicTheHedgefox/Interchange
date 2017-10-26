@@ -131,23 +131,26 @@ h4.article-box-title a:hover {
 	margin-bottom: 20px;
 }
 .blog-thumb{
-	width: 45%;
+	width: 40%;
 	float: left;
 }
 .blog-info{
 	width: 55%;
 	float: left;
+	padding: 0 30px 0 25px;
 }
 .blog-box-title{
 
 }
 h4.blog-box-title {
-    font-size: 1.5em;
-    font-weight: 600;
-    padding: 10px 30px 15px 0px;
+    padding: 0px 30px 10px 0px;
     margin: 0;
 }
-
+h4.blog-box-title a{
+	font-size:1em;
+	font-weight:600;
+	line-height:1.5;
+}
 h4.blog-box-title a:hover {
     color: #46c8c8;	
 }

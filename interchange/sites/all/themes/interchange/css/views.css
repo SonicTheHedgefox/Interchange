@@ -1,3 +1,6 @@
+.sidebar-box{
+	overflow: hidden;
+}
 .sidebar-thumb {
     overflow: hidden;
     width: 30%;

@@ -12,7 +12,9 @@
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
-
+.sidebar-thumb a:hover,.article-thumb a:hover,.topbanner-thumb a:hover{
+	opacity: .9;
+}
 
 .sidebar-box{
 	overflow: hidden;

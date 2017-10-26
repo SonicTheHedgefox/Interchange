@@ -156,7 +156,9 @@ h4.blog-box-title a:hover {
     width: 100%;
     height: auto;
 }
-
+.blog-box-summary{
+	
+}
 .blog-box-author a{
     color: #46c8c8;
     font-size: .8em;

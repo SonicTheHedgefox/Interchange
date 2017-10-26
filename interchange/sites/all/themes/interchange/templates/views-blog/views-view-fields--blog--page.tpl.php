@@ -6,14 +6,14 @@
 
   <div class="blog-info">
   <h4 class="blog-box-title"><?php print $fields['title']->content ?> </h4>
-  <div class="bolg-box-summary"> 
+  <div class="blog-box-summary"> 
     <?php print $fields['field_summary']->content ?>
   </div>
     <span class="blog-box-author">
     <?php print $fields['name']->content ?> 
     </span>
     <span class="blog-box-time">
-      <?php print $fields['changed']->content ?>
+      <?php print $fields['created']->content ?>
     </span>
   </div>
 <div style="clear: both;"></div>

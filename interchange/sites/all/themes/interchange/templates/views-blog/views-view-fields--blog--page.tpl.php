@@ -9,7 +9,6 @@
     <span class="blog-box-author">
     <?php print $fields['name']->content ?> 
     </span>
-    
     <span class="blog-box-time">
       <?php print $fields['changed']->content ?>
     </span>

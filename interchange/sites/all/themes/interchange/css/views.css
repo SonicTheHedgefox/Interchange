@@ -127,7 +127,9 @@ h4.article-box-title a:hover {
         padding: 0 5px 0 3px;
     content: "/";
 }
-
+.blog-box{
+	margin-bottom: 20px;
+}
 .blog-thumb{
 	width: 45%;
 	float: left;
@@ -135,4 +137,38 @@ h4.article-box-title a:hover {
 .blog-info{
 	width: 55%;
 	float: left;
+}
+.blog-box-title{
+
+}
+h4.blog-box-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 10px 30px 15px 0px;
+    margin: 0;
+}
+
+h4.blog-box-title a:hover {
+    color: #46c8c8;	
+}
+
+.blog-box img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-box-author a{
+    color: #46c8c8;
+    font-size: .8em;
+}
+
+.blog-box-author{
+}
+.blog-box-time {
+    font-size: .8em;
+    color: #717171;
+}
+.blog-box-time::before{
+        padding: 0 5px 0 3px;
+    content: "/";
 }

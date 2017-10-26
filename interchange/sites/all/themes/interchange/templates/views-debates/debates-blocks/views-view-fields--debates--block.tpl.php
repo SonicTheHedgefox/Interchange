@@ -1,7 +1,7 @@
 <div class="article-box box-b col-md-6">
 
   <div class="article-thumb">
-	<?php print $fields['field_thumb']->content ?>
+  <?php print $fields['field_thumb']->content ?>
   </div>
 
   <div class="article-info">
@@ -10,7 +10,7 @@
       <?php print $fields['field_tags']->content ?>
   </span>
   <h4 class="article-box-title"><?php print $fields['title']->content ?> </h4>
-		<span class="article-box-author">
+    <span class="article-box-author">
     <?php print $fields['name']->content ?> 
     </span>
     

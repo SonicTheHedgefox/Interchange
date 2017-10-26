@@ -145,7 +145,7 @@
 		</div>
 	 	
 	    <div class="main-content">
-	    <section<?php print $content_column_class; ?>>
+	    <section class="col-sm-9">
 	          <?php if (!empty($tabs)): ?>
 	          <?php print render($tabs); ?>
 	          <?php endif; ?>

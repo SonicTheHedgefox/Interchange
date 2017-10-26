@@ -391,6 +391,7 @@ h2.block-title {
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .view-category-list a {

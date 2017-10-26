@@ -127,11 +127,12 @@ h4.article-box-title a:hover {
         padding: 0 5px 0 3px;
     content: "/";
 }
-.view-blog h2 {
-    display: none;
-}
 
-.view-blog .views-row {
-    padding-bottom: 30px;
-    border-bottom: 1px dashed #46c8c8;
+.blog-thumb{
+	width: 45%;
+	float: left;
+}
+.blog-info{
+	width: 55%;
+	float: left;
 }

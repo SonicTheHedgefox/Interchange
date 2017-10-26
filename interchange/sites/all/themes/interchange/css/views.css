@@ -128,22 +128,34 @@ h4.article-box-title a:hover {
     content: "/";
 }
 .blog-box{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .blog-thumb{
+	position: relative;
 	width: 40%;
 	float: left;
+}
+.blog-thumb::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 25px 0 0 21px;
+    content: "";
 }
 .blog-info{
 	width: 55%;
 	float: left;
-	padding: 0 30px 0 25px;
+	padding: 0 50px 0 35px;
 }
 .blog-box-title{
 
 }
 h4.blog-box-title {
-    padding: 0px 30px 10px 0px;
     margin: 0;
 }
 h4.blog-box-title a{
@@ -159,9 +171,7 @@ h4.blog-box-title a:hover {
     width: 100%;
     height: auto;
 }
-.blog-box-summary{
-	
-}
+.blog-box-summary{padding: 10px 20px 10px 0;}
 .blog-box-author a{
     color: #46c8c8;
     font-size: .8em;

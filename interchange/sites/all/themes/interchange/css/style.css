@@ -152,7 +152,8 @@ a.umenuicon {
 }
 
 .modal-navigation {
-    width: 480px;
+    width: 360px;
+    padding:20px;
     left: auto;
     position: fixed;
     z-index: 7;
@@ -180,7 +181,7 @@ a.umenuicon {
     -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
     transition: opacity 0.3s linear, right 0.3s ease-out;
-    right: -480px;
+    right: -360px;
 }
 
 /*Header Menu End*/

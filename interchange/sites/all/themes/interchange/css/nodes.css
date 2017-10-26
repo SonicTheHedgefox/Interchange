@@ -131,17 +131,17 @@ span.username {
     padding: 20px 0;
     text-align: center;
 }
-h2.dt-title {
+h3.dt-title {
    font-weight: 600;
    margin-bottom: 30px;
 }
-.dt-content{font-size: 18px;}
+.dt-content{margin-top: 20px;font-size: 1em;}
 
 .debate-sides{
 	width: 100%;
 	margin:20px 0;
-	font-size: 1.5em;
-	font-weight: 600;	
+	font-size: 1.4em;
+	font-weight: 600;
 }
 .debate-sides .debate-side-n{
 	float: left;

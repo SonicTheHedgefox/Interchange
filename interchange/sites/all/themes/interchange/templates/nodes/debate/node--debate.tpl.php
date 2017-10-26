@@ -84,9 +84,9 @@
 <div class="dt-bg"><?php print render($content['field_debate_bg']); ?></div>
 
   <div class="dt-header container">
-      <h2 class="dt-title">
+      <h3 class="dt-title">
         <?php print $title; ?> 
-      </h2>
+      </h3>
       <div class="dt-content">
        <?php print render($content['field_debate_content']); ?> 
       </div>

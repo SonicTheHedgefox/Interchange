@@ -405,22 +405,33 @@ span.n-tag{
 }
 span.n-name{
     float:right;
+    color: #717171;
+}
+span.n-name a{
+    color:#717171;
+}
+span.n-name a:hover{
+    color:#46c8c8;
 }
 span.n-count{
     float:right;
+    color: #717171;
 }
 span.n-tag a{
-    border: 1px solid #6f7678;
+
     display: inline-block;
     font-size: .8em;
     padding: 5px 10px;
     margin: 0px 2px 5px 0px;
     border-radius: .625em;
+    border:1px solid #46c8c8;    
+    background-color: #46c8c8;
+    color: #ffffff;    
 }
 span.n-tag a:hover {
-    background-color: #46c8c8;
-    border-color: #3498db;
-    color: #ffffff;
+    background-color: #fff;
+    border:1px solid #46c8c8;
+    color: #46c8c8;
 }
 
 

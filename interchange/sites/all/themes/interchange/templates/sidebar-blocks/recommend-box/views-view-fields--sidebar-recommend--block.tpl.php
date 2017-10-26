@@ -1,4 +1,4 @@
-<div class="sidebar-box box-d col-md-6">
+<div class="sidebar-box box-d">
   <div class="sidebar-thumb">
   <?php print $fields['field_thumb']->content ?>
   </div>

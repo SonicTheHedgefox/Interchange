@@ -215,7 +215,9 @@ span.delimiter {
     width: auto;
     margin: 0 0 20px 0;
 }
-
+.flexslider li{
+    overflow: hidden;
+}
 .slideshow .flex-control-nav {
     display: none;
 }
@@ -270,6 +272,7 @@ h3.box-title, h4.box-title {
     display: block;
     position: relative;
     float: left;
+    overflow:hidden;
 }
 .topbanner-thumb::after{
     position: absolute;

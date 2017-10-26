@@ -26,7 +26,6 @@
     }
 }
 
-
 body {
     font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
     background-color: #fff;
@@ -141,6 +140,7 @@ nav.topbarmenu.innerpage ul.menu a {
 nav.topbarmenu.innerpage ul.menu li.active {
     color: #46c8c8;
 }
+
 a.umenuicon {
     color: #333;
     font-size: 16px;
@@ -153,7 +153,7 @@ a.umenuicon {
 
 .modal-navigation {
     width: 360px;
-    padding:20px;
+    padding: 20px;
     left: auto;
     position: fixed;
     z-index: 7;
@@ -169,6 +169,7 @@ a.umenuicon {
     background-color: #46c8c8;
     color: #fff;
 }
+
 .nav-modal.fade.in .modal-dialog {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -176,6 +177,7 @@ a.umenuicon {
     transform: translate(0, 0);
     right: 0;
 }
+
 .nav-modal.fade .modal-dialog {
     -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
     -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
@@ -184,34 +186,42 @@ a.umenuicon {
     right: -360px;
 }
 
+
 /*Header Menu End*/
 
-.breadcrumb{
-    padding:10px 15px;
-    font-size:14px;
-    color:#777
+.breadcrumb {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #777
 }
-.breadcrumb a{
-    font-size:14px;
+
+.breadcrumb a {
+    font-size: 14px;
 }
+
 span.delimiter {
     color: #ccc;
     padding: 0 10px;
 }
+
 .slideshow .flexslider {
     border: none;
     width: auto;
     margin: 0 0 20px 0;
 }
-.flexslider li{
+
+.flexslider li {
     overflow: hidden;
 }
+
 .slideshow .flex-control-nav {
     display: none;
 }
+
 .flex-direction-nav a:before {
     color: #f6f6f6;
 }
+
 .slideshow img {
     width: 100%;
     height: auto;
@@ -242,12 +252,12 @@ h3.box-title, h4.box-title {
     margin-bottom: 20px;
 }
 
- 
-.dt-page{
+.dt-page {
     overflow: hidden;
-    width:100%;
-    margin-top: -20px;  
+    width: 100%;
+    margin-top: -20px;
 }
+
 .topbanner-box {
     width: 100%;
     overflow: hidden;
@@ -260,9 +270,10 @@ h3.box-title, h4.box-title {
     display: block;
     position: relative;
     float: left;
-    overflow:hidden;
+    overflow: hidden;
 }
-.topbanner-thumb::after{
+
+.topbanner-thumb::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -286,7 +297,6 @@ h3.box-title, h4.box-title {
     float: left;
     overflow: hidden;
 }
-
 
 .masonry-item {
     padding: 0;
@@ -336,6 +346,7 @@ span.tag-mark a {
     display: block;
     font-size: 1em;
 }
+
 span.tag-mark a:hover {
     color: #46c8c8;
     background-color: #fff;
@@ -366,13 +377,17 @@ ul {
     margin: 0px;
     padding: 0px;
 }
+
 .btn-primary {
     background-color: #46c8c8;
     border-color: #46c8c8;
-}.btn-primary:hover{
+}
+
+.btn-primary:hover {
     background-color: #00a185;
     border-color: #46c8c8;
 }
+
 h2.block-title {
     font-size: 1.25em;
     font-weight: 600;
@@ -395,67 +410,77 @@ h2.block-title {
     border-color: #3498db;
     color: #ffffff;
 }
+
 .box-info {
     margin-top: 10px;
 }
-.box-info span{
-    margin-right:1em;
-}
-.box-info span i{
-    margin-right:0.625em;
-}
-span.n-tag{
-    float:left;
-}
-span.n-name{
-    float:right;
-    color: #717171;
-}
-span.n-name a{
-    color:#717171;
-}
-span.n-name a:hover{
-    color:#46c8c8;
-}
-span.n-count{
-    float:right;
-    color: #717171;
-}
-span.n-tag a{
 
+.box-info span {
+    margin-right: 1em;
+}
+
+.box-info span i {
+    margin-right: 0.625em;
+}
+
+span.n-tag {
+    float: left;
+}
+
+span.n-name {
+    float: right;
+    color: #717171;
+}
+
+span.n-name a {
+    color: #717171;
+}
+
+span.n-name a:hover {
+    color: #46c8c8;
+}
+
+span.n-count {
+    float: right;
+    color: #717171;
+}
+
+span.n-tag a {
     display: inline-block;
     font-size: .8em;
     padding: 5px 10px;
     margin: 0px 2px 5px 0px;
     border-radius: .625em;
-    border:1px solid #46c8c8;    
+    border: 1px solid #46c8c8;
     background-color: #46c8c8;
-    color: #ffffff;    
+    color: #ffffff;
 }
+
 span.n-tag a:hover {
     background-color: #fff;
-    border:1px solid #46c8c8;
+    border: 1px solid #46c8c8;
     color: #46c8c8;
 }
 
-
-.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    z-index: 3;
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
     color: #fff;
-    cursor: default;
     background-color: #46c8c8;
     border-color: #46c8c8;
 }
-.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    z-index: 2;
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
     color: #46c8c8;
     background-color: #eee;
     border-color: #ddd;
 }
+
+.pagination>li>a, .pagination>li>span {
+    color: #46c8c8;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
 .footer {
-    margin-top: 45px;
-    padding-top: 35px;
-    padding-bottom: 36px;
     border-top: 1px solid #E5E5E5;
     background: #33363b;
 }

@@ -397,24 +397,19 @@ h2.block-title {
 }
 
 .view-category-list a {
+    border: 1px solid #6f7678;
     display: inline-block;
     font-size: .8em;
     padding: 5px 10px;
     margin: 0px 2px 5px 0px;
     border-radius: .625em;
-    border: 1px solid #46c8c8;
-    background-color: #46c8c8;
-    color: #ffffff;
 }
 
 .view-category-list a:hover {
-    background-color: #fff;
-    border: 1px solid #46c8c8;
-    color: #46c8c8;
+    background-color: #46c8c8;
+    border-color: #3498db;
+    color: #ffffff;
 }
-
- 
-
 
 .box-info {
     margin-top: 10px;

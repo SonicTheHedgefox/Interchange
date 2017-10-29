@@ -10,7 +10,6 @@
       <?php print $fields['field_tags']->content ?>
   </span>
   <h4 class="article-box-title"><?php print $fields['title']->content ?> </h4>
-  <div class="article-summary"><?php print $fields['field_summary']->content ?></div>
     <span class="article-box-author">
     <?php print $fields['name']->content ?> 
     </span>
@@ -19,5 +18,5 @@
       <?php print $fields['changed']->content ?>
     </span>
   </div>
-
+  <div class="article-summary"><?php print $fields['field_summary']->content ?></div>
 </div>

@@ -64,7 +64,7 @@ h4.sidebar-box-title{
     position: absolute;
     bottom: 0;
     width: 75%;
-    padding-top: 18px;
+    padding-top: 10px;
     padding-left: 0;
     padding-right: 0;
     background: #fff;
@@ -99,7 +99,7 @@ position: absolute;
 h4.article-box-title {
     font-size: 1.5em;
     font-weight: 600;
-    padding: 10px 30px 15px 0px;
+    padding: 8px 30px 10px 0px;
     margin: 0;
 }
 
@@ -107,7 +107,7 @@ h4.article-box-title a:hover {
     color: #46c8c8;	
 }
 .article-box-summary{
-	
+	margin-bottom: .6em;
 }
 .article-box img {
     width: 100%;

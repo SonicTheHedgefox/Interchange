@@ -28,7 +28,7 @@
 
 body {
     font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
-    background-color: #fff;
+    background-color: #f3f3f3;
     color: #333;
     font-size: 16px;
     word-wrap: break-word;
@@ -82,8 +82,7 @@ li {
 nav.navheader {
     background-color: rgba(34, 34, 34, .6);
     border: none;
-    color: #fff;
-    margin-bottom: 15px;
+    color: #fff; 
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -186,7 +185,9 @@ a.umenuicon {
     right: -360px;
 }
 
-
+.main{
+    background: #fff;
+}
 /*Header Menu End*/
 
 .breadcrumb {

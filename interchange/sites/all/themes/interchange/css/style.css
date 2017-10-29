@@ -188,7 +188,9 @@ a.umenuicon {
 
 
 /*Header Menu End*/
-
+.breadcrumb-box{
+    padding: 0 20px;
+}
 .breadcrumb {
     padding: 10px 15px;
     font-size: 14px;
@@ -250,6 +252,7 @@ h3.box-title, h4.box-title {
 .topbanner {
     overflow: hidden;
     margin-bottom: 20px;
+    padding: 15px;
 }
 
 .dt-page {

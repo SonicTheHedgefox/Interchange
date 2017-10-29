@@ -59,7 +59,9 @@ h3.node-header {
 span.username {
     font-weight: 600;
 }
-
+.node-article{
+	padding: 0 15px;
+}
 .node-i i {
     padding-right: 5px;
 }

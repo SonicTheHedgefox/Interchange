@@ -28,7 +28,7 @@
 
 body {
     font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
-    background-color: #f3f3f3;
+    background-color: #fff;
     color: #333;
     font-size: 16px;
     word-wrap: break-word;
@@ -82,7 +82,8 @@ li {
 nav.navheader {
     background-color: rgba(34, 34, 34, .6);
     border: none;
-    color: #fff; 
+    color: #fff;
+    margin-bottom: 15px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -185,28 +186,19 @@ a.umenuicon {
     right: -360px;
 }
 
-.main{
-    background: #fff;
-    padding: 20px;
-}
-.main-content {
-    overflow: hidden;
-}
+
 /*Header Menu End*/
 
 .breadcrumb {
-    padding: 0px 15px;
+    padding: 10px 15px;
     font-size: 14px;
-    background: #fff;
-    color: #777;
+    color: #777
 }
 
 .breadcrumb a {
     font-size: 14px;
 }
-.breadcrumb-box {
-    padding: 0 20px;
-}
+
 span.delimiter {
     color: #ccc;
     padding: 0 10px;

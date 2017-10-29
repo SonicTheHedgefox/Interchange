@@ -10,6 +10,7 @@
       <?php print $fields['field_tags']->content ?>
   </span>
   <h4 class="article-box-title"><?php print $fields['title']->content ?> </h4>
+  <div class="article-summary"></div><?php print $fields['field_summary']->content ?>
     <span class="article-box-author">
     <?php print $fields['name']->content ?> 
     </span>

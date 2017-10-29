@@ -133,6 +133,9 @@ h4.article-box-title a:hover {
         padding: 0 5px 0 3px;
     content: "/";
 }
+.view-blog{
+	padding:0 15px;
+}
 .blog-box{
 	margin-bottom: 30px;
 }

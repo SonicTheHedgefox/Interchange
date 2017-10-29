@@ -187,13 +187,18 @@ a.umenuicon {
 
 .main{
     background: #fff;
+    padding: 15px;
+}
+.main-content {
+    overflow: hidden;
 }
 /*Header Menu End*/
 
 .breadcrumb {
     padding: 10px 15px;
     font-size: 14px;
-    color: #777
+    background: #fff;
+    color: #777;
 }
 
 .breadcrumb a {

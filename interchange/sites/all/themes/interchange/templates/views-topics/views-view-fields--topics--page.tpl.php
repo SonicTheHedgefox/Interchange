@@ -1,7 +1,7 @@
 <div class="article-box box-b col-md-6">
 
   <div class="article-thumb">
-  <?php print $fields['field_thumb']->content ?>
+  <?php print $fields['field_topic_thumb']->content ?>
   </div>
 
   <div class="article-info">

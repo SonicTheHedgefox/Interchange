@@ -83,7 +83,8 @@
 
 <div class="dt-bg"><?php print render($content['field_debate_bg']); ?></div>
 
-  <div class="dt-header container">
+  <div class="dt-header">
+    <div class="container">
       <h3 class="dt-title">
         <?php print $title; ?> 
       </h3>
@@ -106,6 +107,7 @@
             </div>               
         </div>         
   </div>
+</div>
 </div>
 
 

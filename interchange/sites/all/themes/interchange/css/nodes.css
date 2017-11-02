@@ -146,6 +146,7 @@ h3.dt-title {
 	margin:20px 0;
 	font-size: 1.4em;
 	font-weight: 600;
+	overflow: hidden;
 }
 .debate-sides .debate-side-n{
 	float: left;

@@ -134,6 +134,12 @@ span.username {
     padding: 20px 0;
     text-align: center;
 }
+.dt-header .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 h3.dt-title {
    margin-bottom: 30px;
 }

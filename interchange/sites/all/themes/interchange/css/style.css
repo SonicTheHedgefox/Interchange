@@ -137,7 +137,7 @@ nav.topbarmenu.innerpage ul.menu a {
     padding: 10px 20px;
 }
 
-nav.topbarmenu.innerpage ul.menu li.active {
+nav.topbarmenu.innerpage ul.menu a.active {
     color: #46c8c8;
 }
 

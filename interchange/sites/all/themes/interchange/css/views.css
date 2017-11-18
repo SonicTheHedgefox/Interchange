@@ -14,8 +14,8 @@
 }
 
 .sidebar-box{
-	overflow: hidden;
-	margin-bottom: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 .sidebar-thumb {
     overflow: hidden;
@@ -24,25 +24,24 @@
     position: relative;
 }
 .sidebar-thumb::after{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	display: block;
-	width: 0;
-	height: 0;
-	border-color: transparent transparent transparent #fff;
-	border-style: solid;
-	border-width: 16px 0 0 18px;
-	content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 16px 0 0 18px;
+    content: "";
 }
 .sidebar-info{
-	width: 69%;
-	float: left;
-	padding-left: 15px;
+    width: 69%;
+    float: left;
+    padding-left: 15px;
 }
 h4.sidebar-box-title{
     font-size: 1em;
-    font-weight: 600;
     line-height: 1.4;
     padding: 0px 0px 15px 0px;
     margin: 0;
@@ -81,7 +80,7 @@ position: absolute;
     border-width: 25px 0 0 21px;
     content: "";
 
-	
+    
 }
 .article-tag {
     position: relative;
@@ -104,14 +103,14 @@ h4.article-box-title {
 }
 
 h4.article-box-title a:hover {
-    color: #46c8c8;	
+    color: #46c8c8; 
 }
 .article-box-summary{
-	margin-bottom: .6em;
-	font-size: .9em;
-	10p: x
-	padding-right:;
-	padding-right: 10px;
+    margin-bottom: .6em;
+    font-size: .9em;
+    10p: x
+    padding-right:;
+    padding-right: 10px;
 }
 .article-box img {
     width: 100%;
@@ -134,13 +133,13 @@ h4.article-box-title a:hover {
     content: "/";
 }
 .blog-box{
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .blog-thumb{
-	position: relative;
-	width: 40%;
-	float: left;
-	overflow: hidden;
+    position: relative;
+    width: 40%;
+    float: left;
+    overflow: hidden;
 }
 .blog-thumb::after{
     position: absolute;
@@ -155,21 +154,20 @@ h4.article-box-title a:hover {
     content: "";
 }
 .blog-info{
-	width: 55%;
-	float: left;
-	padding: 0 50px 0 35px;
+    width: 55%;
+    float: left;
+    padding: 0 50px 0 35px;
 }
 
 h4.blog-box-title {
     margin: 0 0 10px 0;
 }
 h4.blog-box-title a{
-	font-size:1em;
-	font-weight:600;
-	line-height:1.5;
+    font-size:1em;
+    line-height:1.5;
 }
 h4.blog-box-title a:hover {
-    color: #46c8c8;	
+    color: #46c8c8; 
 }
 .blog-tag {
     position: relative;

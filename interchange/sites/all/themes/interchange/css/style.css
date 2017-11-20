@@ -148,6 +148,11 @@ nav.topbarmenu.innerpage ul.menu a.active {
 .modal-navigation-content ul.menu a:hover{
     color: #333!important;
 }
+.modal-navigation-content .btn-primary{
+    margin-top: 20px; 
+    background-color: #00a185;
+    border-color: #46c8c8;
+}
 a.umenuicon {
     color: #333;
     font-size: 16px;

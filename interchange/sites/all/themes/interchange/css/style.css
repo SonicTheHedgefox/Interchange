@@ -140,7 +140,10 @@ nav.topbarmenu.innerpage ul.menu a {
 nav.topbarmenu.innerpage ul.menu a.active {
     color: #46c8c8;
 }
-
+.modal-navigation-content ul.menu a{
+    color: #fff;
+    padding: 0;
+}
 a.umenuicon {
     color: #333;
     font-size: 16px;

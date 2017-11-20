@@ -140,9 +140,13 @@ nav.topbarmenu.innerpage ul.menu a {
 nav.topbarmenu.innerpage ul.menu a.active {
     color: #46c8c8;
 }
-.modal-navigation-content ul.menu a{
-    color: #fff;
-    padding: 0;
+.modal-navigation-content ul.menu a {
+    color: #fff!important;
+    padding-left: 0!important;
+    font-weight: normal!important;
+}
+.modal-navigation-content ul.menu a:hover{
+    color: #333!important;
 }
 a.umenuicon {
     color: #333;

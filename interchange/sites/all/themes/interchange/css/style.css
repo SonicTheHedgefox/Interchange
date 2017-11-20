@@ -153,6 +153,9 @@ nav.topbarmenu.innerpage ul.menu a.active {
     background-color: #00a185;
     border-color: #46c8c8;
 }
+#user-login-form ul li a{
+    color: #fff;
+}
 a.umenuicon {
     color: #333;
     font-size: 16px;

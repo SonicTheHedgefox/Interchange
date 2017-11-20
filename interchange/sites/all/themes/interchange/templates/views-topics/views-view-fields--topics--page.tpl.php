@@ -5,10 +5,10 @@
   </div>
 
   <div class="article-info">
-   <span class="article-tag">
+<!--    <span class="article-tag">
       <i class="fa fa-tag" aria-hidden="true"></i>
       <?php print $fields['field_tags']->content ?>
-  </span>
+  </span> -->
   <h4 class="article-box-title"><?php print $fields['title']->content ?> </h4>
   <div class="article-box-summary"><?php print $fields['field_summary']->content ?></div>
     <span class="article-box-author">

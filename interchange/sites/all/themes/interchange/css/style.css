@@ -149,9 +149,6 @@ nav.topbarmenu.innerpage ul.menu a.active {
     padding-left: 0!important;
     font-weight: normal!important;
 }
-.modal-navigation-content ul.menu a:hover {
-    color: #333!important;
-}
 .modal-navigation-content ul.menu a:hover{
     color: #333!important;
 }
@@ -162,6 +159,9 @@ nav.topbarmenu.innerpage ul.menu a.active {
 }
 #user-login-form ul li a{
     color: #fff;
+}
+#user-login-form ul li a:hover{
+    color: #333;
 }
 a.umenuicon {
     color: #333;

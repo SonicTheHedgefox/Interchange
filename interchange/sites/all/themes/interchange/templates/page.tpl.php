@@ -112,7 +112,7 @@
 				    <div class="modal-navigation-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-							<h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+							<h4 class="modal-title" id="myLargeModalLabel">用户菜单</h4>
 						</div>
 						<div class="modal-body">
 							<?php print render ($page['navigation']); ?>

@@ -160,3 +160,6 @@ h3.dt-title {
 .debate-sides .debate-side-p{
 	float: right;
 }
+a.tabledrag-toggle-weight {
+    display: none;
+}

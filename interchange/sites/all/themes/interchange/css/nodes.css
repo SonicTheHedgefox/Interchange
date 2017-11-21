@@ -164,3 +164,7 @@ h3.dt-title {
 a.tabledrag-toggle-weight {
     display: none;
 }
+
+.topic-header h3{
+    text-align: center;
+}

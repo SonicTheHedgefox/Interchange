@@ -90,7 +90,7 @@
   
   <div class="row">
     
-  <div class="dt-header">
+  <div class="topic-header">
     <div class="container">
       <h3 class="dt-title">
         <?php print $title; ?> 
@@ -99,7 +99,7 @@
        <?php print render($content['field_topic_content']); ?> 
       </div>      
   </div>
-</div>
+</div> 
 
 
     <?php $region = block_get_blocks_by_region('debate_block_positive'); ?>

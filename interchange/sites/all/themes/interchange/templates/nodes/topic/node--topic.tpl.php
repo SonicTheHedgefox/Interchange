@@ -81,7 +81,7 @@
 ?>
 <div class="dt-page-header">
 
-<div class="dt-bg"><?php print render($content['field_debate_bg']); ?></div>
+<div class="dt-bg"><?php print render($content['field_topic_bg']); ?></div>
 
   <div class="dt-header">
     <div class="container">
@@ -89,23 +89,8 @@
         <?php print $title; ?> 
       </h3>
       <div class="dt-content">
-       <?php print render($content['field_debate_content']); ?> 
-      </div>
-        <div class="debate-sides">
-            <div class="col-md-5">
-              <div class="debate-side-p">
-                <?php print render($content['field_positive']); ?>                
-              </div>
-            </div>
-            <div class="col-md-2">
-                  <i class="fa fa-exchange" aria-hidden="true"></i> 
-            </div>             
-            <div class="col-md-5">
-              <div class="debate-side-n">
-                <?php print render($content['field_negative']); ?>                
-              </div>  
-            </div>               
-        </div>         
+       <?php print render($content['field_topic_content']); ?> 
+      </div>      
   </div>
 </div>
 </div>

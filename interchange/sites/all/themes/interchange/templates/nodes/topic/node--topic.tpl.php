@@ -83,6 +83,13 @@
 
 <div class="dt-bg"><?php print render($content['field_topic_bg']); ?></div>
 
+</div>
+
+
+<div class="container">
+  
+  <div class="row">
+    
   <div class="dt-header">
     <div class="container">
       <h3 class="dt-title">
@@ -93,13 +100,8 @@
       </div>      
   </div>
 </div>
-</div>
 
 
-<div class="container">
-  
-  <div class="row">
-    
     <?php $region = block_get_blocks_by_region('debate_block_positive'); ?>
     <?php if (!empty($region)): ?>
          <aside class="col-xs-0 col-sm-6" role="banner"> 

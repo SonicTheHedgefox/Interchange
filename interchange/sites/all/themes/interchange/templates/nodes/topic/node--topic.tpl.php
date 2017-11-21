@@ -89,7 +89,7 @@
         <?php print $title; ?> 
       </h3>
       <div class="dt-content">
-       <?php print render($content['field_topic_content']); ?> 
+       <?php print render($content['field_summary']); ?> 
       </div>      
   </div>
 </div>

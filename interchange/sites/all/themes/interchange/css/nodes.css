@@ -60,14 +60,14 @@ span.username {
     font-weight: 600;
 }
 .node-article{
-    padding: 0 15px;
+	padding: 0 15px;
 }
 .node-i i {
     padding-right: 5px;
 }
 .field-name-field-body{
-    line-height:1.6;
-    font-size: 17px;
+	line-height:1.6;
+	font-size: 17px;
 }
 .field-name-field-body a {
     color: #46c8c8;
@@ -97,7 +97,6 @@ span.username {
 .dt-page-header {
     position: relative;
     background: rgba(0,0,0,.5);
-    min-height: 280px;
 }
 .dt-page-header::after {
     position: absolute;
@@ -145,26 +144,22 @@ h3.dt-title {
    margin-bottom: 30px;
 }
 .dt-content{
-    margin-top: 20px;font-size: 1em;
+	margin-top: 20px;font-size: 1em;
 }
 
 .debate-sides{
-    width: 100%;
-    margin:20px 0;
-    font-size: 1.4em;
-    font-weight: 600;
-    overflow: hidden;
+	width: 100%;
+	margin:20px 0;
+	font-size: 1.4em;
+	font-weight: 600;
+	overflow: hidden;
 }
 .debate-sides .debate-side-n{
-    float: left;
+	float: left;
 }
 .debate-sides .debate-side-p{
-    float: right;
+	float: right;
 }
 a.tabledrag-toggle-weight {
     display: none;
-}
-
-.topic-header h3{
-    text-align: center;
 }

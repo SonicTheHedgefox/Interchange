@@ -141,7 +141,7 @@
 	 	<div style="clear:both"></div>
 		
 		<div class="section-title">
-			<div class="inner"><a href="/latest">Latest »</a></div>
+			<div class="inner"><a href="/latest">Topics»</a></div>
 		</div>
 	 	
 	    <div class="main-content">
